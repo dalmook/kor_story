@@ -16,6 +16,8 @@ from pathlib import Path
 from typing import Any
 
 ROOT = Path(__file__).resolve().parents[1]
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+import series_packaging as packaging
 
 
 def read_json(path: Path) -> Any:
@@ -97,6 +99,7 @@ def prompt_blocks(brief: str) -> tuple[list[str],list[str]]:
 
 def prepare(root: Path, eid: str, out: Path) -> None:
     cfg=read_json(root/'production/director_v4.json'); cat=read_json(root/'production/catalog_v4.json')
+    series=packaging.load(root,cat); cat=packaging.apply_catalog(cat,series)
     problems=validate_contract(cfg,cat)
     if problems: raise ValueError('\n'.join(problems))
     ep=next((e for e in cat['episodes'] if e['episode_id']==eid),None)
@@ -113,6 +116,7 @@ def prepare(root: Path, eid: str, out: Path) -> None:
         char=blocks[0] if blocks else ''
         texts={l:(root/f'narration/{eid}.{l}.txt').read_text(encoding='utf-8').strip().splitlines() for l in ('ko','en')}
         if any(len(v)!=7 for v in texts.values()): raise ValueError('Narration requires seven semantic lines.')
+    images=packaging.direct_images(series,eid,images)
     out.mkdir(parents=True)
     for folder in ('images','flow','image_prompts','flow_prompts','audio','captions','exports','evidence','youtube'):
         (out/folder).mkdir()
@@ -130,16 +134,20 @@ def prepare(root: Path, eid: str, out: Path) -> None:
     segments=[{'id':'00_opening','kind':'still','from':0,'frames':60,'file':'images/00_opening.png'}]
     segments += [{'id':f'{i:02d}','kind':'video','from':60+(i-1)*120,'frames':120,'file':f'flow/{i:02d}.mp4','playback_rate':1.0} for i in range(1,8)]
     segments += [{'id':'08_outro','kind':'still','from':900,'frames':90,'file':'images/08_outro.png'}]
-    boundaries=[{'at':60,'type':'dissolve','frames':8}] + [{'at':180+i*120,'type':t,'frames':8 if t=='dissolve' else 0} for i,t in enumerate(ep['core_transitions'])] + [{'at':900,'type':'dissolve','frames':10}]
-    write_json(out/'run_plan.json',{'version':4,'episode_id':eid,'runtime_seconds':33,'total_frames':990,'status':'PREPARED_NOT_GENERATED','segments':segments,'boundaries':boundaries,'cards':ep,'budgets':cfg['budget'],'next_episode_autorun':False})
+    opening=ep.get('opening_transition','dissolve')
+    boundaries=[{'at':60,'type':opening,'frames':8 if opening=='dissolve' else 0}] + [{'at':180+i*120,'type':t,'frames':8 if t=='dissolve' else 0} for i,t in enumerate(ep['core_transitions'])] + [{'at':900,'type':'dissolve','frames':10}]
+    write_json(out/'run_plan.json',{'version':4,'episode_id':eid,'runtime_seconds':33,'total_frames':990,'status':'PREPARED_NOT_GENERATED','segments':segments,'boundaries':boundaries,'cards':ep,'budgets':cfg['budget'],'next_episode_autorun':False,'packaging_revision':series['revision']})
     write_json(out/'asset_manifest.json',{'episode_id':eid,'status':'AWAITING_REAL_ASSETS','assets':[],'actual_flow_spent':None,'narration_provider':None,'master_sha256':None})
     write_json(out/'preflight.json',{'image_tool':None,'browser_tool':None,'flow_login_verified':False,'tts_tool':None,'music_license_verified':False,'actual_price_verified':False})
+    packaging.write_handoff(out,series,eid,texts,ep,cfg)
     # Export duration-correct drafts; never alter or publish the original package.
     meta_path=root/'youtube/metadata.json'
     if meta_path.exists():
         meta=read_json(meta_path); m=next(e for e in meta['episodes'] if e['episode_id']==eid)
         for loc in ('ko','en'):
             item=copy.deepcopy(m['locales'][loc])
+            item['source_title']=item['title']
+            item['title']=packaging.metadata_title(series,eid,loc,ep['opener_kicker'][loc])
             item['description']=item['description'].replace('28초','33초').replace('28-second','33-second').replace('28 seconds','33 seconds')
             item['expected_filename']=f'{eid}_{loc}.mp4'
             item.update({'runtime_seconds':33,'upload_authorized':False,'status':'DRAFT_FINAL_VIDEO_REVIEW_REQUIRED'})
@@ -147,7 +155,7 @@ def prepare(root: Path, eid: str, out: Path) -> None:
             for name,key in [('title.txt','title'),('description.txt','description')]: (folder/name).write_text(item[key]+'\n',encoding='utf-8')
             (folder/'tags.txt').write_text(', '.join(item['tags'])+'\n',encoding='utf-8')
             write_json(folder/'metadata_draft.json',item)
-    (out/'STATUS.md').write_text('# PREPARED_NOT_GENERATED\n\nOnly prompts, target timing and a run plan were prepared. No image, Flow video, speech, music or final render has been generated. Follow START_CODEX.md and the v4 quality gates.\n',encoding='utf-8')
+    (out/'STATUS.md').write_text('# PREPARED_NOT_GENERATED\n\nOnly prompts, target timing, packaging briefs and a run plan were prepared. No image, cover, Flow video, speech, music or final render has been generated. Follow START_CODEX.md and the v4 quality gates.\n',encoding='utf-8')
 
 
 def qa_media(path: Path, cfg: dict) -> list[str]:
@@ -175,6 +183,7 @@ def main() -> int:
     args=ap.parse_args()
     try:
         cfg=read_json(ROOT/'production/director_v4.json');cat=read_json(ROOT/'production/catalog_v4.json')
+        series=packaging.load(ROOT,cat);cat=packaging.apply_catalog(cat,series)
         errors=validate_contract(cfg,cat)
         if errors: raise ValueError('\n'.join(errors))
         if args.command=='prepare':
@@ -189,7 +198,7 @@ def main() -> int:
             write_json(args.run/'evidence/automated_qa.json',report)
             if errors: raise ValueError('\n'.join(errors))
             print('Technical fields passed. Actual font bounds, shot quality, music, listening and mobile preview still require review.');return 0
-        print('PASS: v4 contract, 33s/990f, nine stills/seven clips, captions, budgets and eight episode cards.')
+        print('PASS: v4 contract, 33s/990f, nine stills/seven clips, captions, budgets and eight episode packaging briefs.')
         print('This does not validate a generated image, Flow clip, voice or completed video.')
         return 0
     except (OSError,ValueError,KeyError,TypeError) as exc:

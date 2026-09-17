@@ -1,0 +1,228 @@
+{
+  "version": 4,
+  "revision": "series-packaging-1",
+  "status": "SPECIFICATION_NOT_GENERATED_MEDIA",
+  "evidence_scope": "USER_SCREENSHOTS_NOT_FULL_VIDEO_AUDIT",
+  "extra_flow_clips": 0,
+  "extra_image_assets": 0,
+  "visual_rules": "Use original Korean ink-and-light-color painting with approved hanji texture, clothing and architecture. One focal subject or coherent group plus one story clue. Keep large readable light-dark shapes, quiet title space and one restrained existing accent. Do not copy another creator's image, character, lettering, logo or exact layout. No baked text, border, collage, 3D gloss, neon or full-frame darkening. Approved references and existing assets take priority; do not automatically regenerate them.",
+  "adoption_limits": [
+    "No claim that screenshots reveal shot counts, tools, voice workflow or retention.",
+    "Likes are not views; cross-post dates and exposure differ. No causal topic ranking or guaranteed growth.",
+    "Retain the existing eight episodes and traditional/original labels. Do not turn family tales into sexualized or graphic horror.",
+    "Opening stays two seconds without narration; questions are editorial notes, not another text overlay.",
+    "One shared visual master, nine artworks, seven Flow clips, 33 seconds; no new paid calls or auto-upload."
+  ],
+  "episodes": [
+    {
+      "episode_id": "01_sun_and_moon_p01",
+      "title": {
+        "ko": "문밖의 엄마",
+        "en": "The Visitor\nat the Door"
+      },
+      "question": {
+        "ko": "엄마 목소리인데, 왜 문을 열 수 없을까?",
+        "en": "Why are the children afraid of Mother at the door?"
+      },
+      "motif": "따뜻한 창호문과 문밖의 낯선 그림자.",
+      "payoff": "문밖의 정체가 밝혀진 뒤 호랑이의 시선이 나무 위로 이어진다.",
+      "spoiler_guard": "오프닝의 발톱·호랑이 얼굴, 본문의 동아줄·해와 달 결말 금지.",
+      "accent_rule": "기존 남색·아이보리·작은 붉은 리본 유지. 등불빛만 따뜻하게 대비.",
+      "opener_direction": "A poster-like single scene in the approved Korean cottage: the large warm three-bar paper door and an indistinct visitor silhouette dominate the middle-right. A sliver of dark thatched eave anchors the location. The silhouette is already visible at frame zero, but has no readable tiger features or claws. Quiet indigo upper-left space accommodates the title without covering the door. Warm lamplight against cool night creates one clear visual question. No collage, no sun-and-moon ending. Match the approved front door and cottage exactly.",
+      "shot_focus": [
+        "The paper door and its ambiguous silhouette are the single readable clue; keep the creature unidentified.",
+        "Make the existing paw and claw tips readable against the same paper; this is the identity reveal, not a transformation.",
+        "Frame the protective sleeve contact and the different rear wooden door; keep both children visibly childlike.",
+        "Keep the doorway behind the siblings so their escape direction reads immediately; do not introduce another tiger.",
+        "Make the branch height and the siblings' fixed grips readable; the cottage below establishes distance.",
+        "The damaged front panel and the same tiger explain its emergence after searching; do not add another attack.",
+        "Connect the tiger's lifted gaze to the children on the branch in one frame; fear comes from being found, not a camera-facing roar."
+      ]
+    },
+    {
+      "episode_id": "01_sun_and_moon_p02",
+      "title": {
+        "ko": "하늘의 동아줄",
+        "en": "The Rope\nfrom the Sky"
+      },
+      "question": {
+        "ko": "나무 아래는 호랑이. 오누이는 어디로 달아날까?",
+        "en": "With a tiger below, where can the children escape?"
+      },
+      "motif": "같은 나무의 높이와 올려다보는 시선, 뒤이어 등장하는 두 종류의 줄.",
+      "payoff": "온전한 구조용 줄과 썩은 호랑이 줄을 대비한 뒤 두 천체로 완결한다.",
+      "spoiler_guard": "오프닝에 줄·탈출 성공·썩은 줄·해와 달 결말을 미리 그리지 않는다.",
+      "accent_rule": "1부의 승인 팔레트와 붉은 리본 유지. 구조 줄은 밝게, 썩은 줄은 어둡게 구분.",
+      "opener_direction": "A single vertical danger tableau using the exact approved Part 1 references: two recognizable child siblings together on the high right-extending branch, and the same unmistakable Korean folk tiger below looking upward. Keep both levels readable at small size rather than reducing the tiger to an unrecognizable dot. The trunk stays at the left edge and the moon upper-right. Their height difference and upward gazes carry the question. Quiet upper-left sky remains behind the title, with neither child covered. No rope yet, no fall, no sun disc, no rescue outcome.",
+      "shot_focus": [
+        "Use the over-shoulder foreground sleeves and ribbon to connect the siblings above to the watching tiger below.",
+        "Give the bracing hands and thick trembling branch a clean silhouette; danger without a broken branch.",
+        "The closed lips, clasped hands and upward gaze carry the silent request; no new divine character.",
+        "The intact pale braided rope is the only new reveal; make its direction from clouds to branch unambiguous.",
+        "Keep the two siblings together on the same intact rope, with stable grips and branch below showing ascent.",
+        "Make dark frayed fibers unmistakably different from the intact rope; never suggest this is the children's rope.",
+        "Show two distinct already-formed celestial discs and the familiar cottage; resolution without human body morphing."
+      ],
+      "detail_override": "production/01_sun_and_moon_p02_v4.json",
+      "core_transitions": [
+        "cut",
+        "dissolve",
+        "cut",
+        "cut",
+        "cut",
+        "dissolve"
+      ],
+      "opening_transition": "cut"
+    },
+    {
+      "episode_id": "02_fairy_and_woodcutter_p01",
+      "title": {
+        "ko": "훔친 날개옷",
+        "en": "The Stolen\nRobe"
+      },
+      "question": {
+        "ko": "날개옷은 누가, 왜 감췄을까?",
+        "en": "Who hid the robe that could take her home?"
+      },
+      "motif": "빈 바위의 자리와 옥빛 비단, 마지막 궤짝의 닫힌 잠금쇠.",
+      "payoff": "처음의 사라진 옷이 나무꾼의 궤짝에 갇힌 귀향길임을 드러낸다.",
+      "spoiler_guard": "결혼을 구원이나 운명적 보상으로 미화하지 않는다. 2부 귀향을 먼저 보여주지 않는다.",
+      "accent_rule": "승인된 옥빛 비단을 핵심 단서로, 나머지 채도는 절제.",
+      "opener_direction": "One clear absence in the approved Korean forest pool setting: a smooth empty rock in the middle-right and a thin pale-jade silk edge disappearing behind a dark tree. Quiet ivory mist fills the upper-left title area. The missing robe, not a bathing body, is the subject. Any distant maiden is fully clothed. Keep the approved pool, robe color and Korean landscape; no nudity, romantic embrace, flight or completed ending.",
+      "shot_focus": [
+        "The empty place where the robe belonged must read as a missing object, not a decorative landscape.",
+        "Direct attention to the already-scripted hidden robe and the woodcutter's concealment; do not add violence.",
+        "Separate departing figures from the remaining maiden spatially, within the existing shot's action.",
+        "Give the lone maiden breathing room and a readable searching posture; no glamorous bathing imagery.",
+        "Preserve a visible distance between the approaching woodcutter and maiden; meeting is not proof of consent.",
+        "Keep their downhill direction and the robe's absence clear without adding an embrace or wedding.",
+        "The familiar chest and its latch complete the missing-object motif; do not reveal Part 2's return."
+      ]
+    },
+    {
+      "episode_id": "02_fairy_and_woodcutter_p02",
+      "title": {
+        "ko": "돌아간 날개",
+        "en": "Wings\nReturned"
+      },
+      "question": {
+        "ko": "그녀는 왜 여전히 하늘을 바라볼까?",
+        "en": "Why does she still look toward the sky?"
+      },
+      "motif": "닫힌 궤짝과 하늘을 향한 시선, 마지막의 빈 궤짝.",
+      "payoff": "옷을 되찾은 선녀의 선택과 두 아이의 귀향, 남겨진 빈 궤짝으로 마무리한다.",
+      "spoiler_guard": "오프닝부터 비행시키지 않는다. 선녀의 귀향을 배신이나 벌로 규정하지 않는다.",
+      "accent_rule": "1부의 옥빛 비단·비녀와 궤짝의 황동 잠금쇠를 그대로 유지.",
+      "opener_direction": "The approved fully clothed sky maiden stands under the same cottage eave with her two children close beside her. Their stable silhouettes occupy the right half, while her gaze leads into open pale sky. The familiar closed chest with round brass latch and lower-left chip is readable in the lower-right foreground. Quiet upper-left sky supports the title. No robe opening, flight, empty chest, new child or changed clothing. Build longing through her gaze, not tears or melodramatic pose.",
+      "shot_focus": [
+        "The mother and exactly two children establish the elapsed years without a montage or additional family.",
+        "Let her upward gaze remain the focal line; preserve the child positions and closed-mouth expression.",
+        "Make the familiar robe emerging from the familiar chest readable; no new magical object.",
+        "The recovered robe and her deliberate posture communicate choice; avoid a sudden costume transformation.",
+        "Keep both children safely held within one stable silhouette as the existing silk spreads.",
+        "Preserve all three figures traveling together toward the clouds; no abandoned child or extra return.",
+        "Let the empty chest carry the absence, echoing the opener; no reunion or invented sequel."
+      ]
+    },
+    {
+      "episode_id": "03_gumiho_last_night",
+      "title": {
+        "ko": "구미호의\n마지막 밤",
+        "en": "The Fox Spirit's\nLast Night"
+      },
+      "question": {
+        "ko": "천 년의 꿈과 한 생명, 무엇을 택할까?",
+        "en": "A thousand-year dream or one life: what will she choose?"
+      },
+      "motif": "한 개의 옥빛 구슬과 같은 리본.",
+      "payoff": "구슬의 빛이 사라지는 대가와 살아난 아이를 보여주고 조용한 여우의 뒷모습으로 닫는다.",
+      "spoiler_guard": "오프닝에 희생·꺼진 구슬·최종 여우 모습을 폭로하지 않는다. 창작 설화 표시 유지.",
+      "accent_rule": "승인된 옥빛 구슬과 리본만 절제된 강조색. 발광 네온 금지.",
+      "opener_direction": "A composed portrait of the approved adult Korean fox-spirit woman in ivory hanbok, low dark braid and the same jade ribbon. She occupies the right half, holding exactly one small pale jade pearl visibly at chest height. The snowy pine grove recedes simply, leaving quiet upper-left sky for the title. Her restrained gaze toward the pearl creates a choice, not a seductive pose. No child, spent pearl, animal transformation or sacrifice outcome is shown in this cover.",
+      "shot_focus": [
+        "Keep the existing woman and approaching dawn readable as a limited opportunity, without adding clocks or text.",
+        "One pearl, one opportunity: isolate its modest light and preserve its size and color.",
+        "Make the existing vulnerable child legible in the snow without graphic illness or injury.",
+        "Emphasize the already-scripted transfer of the same pearl; do not add another spell or action.",
+        "Show the child's recovery and the original pearl's fading light without switching its identity.",
+        "Let the loss of the opportunity be clear through the approved scene; no dramatic body morph.",
+        "Frame the safe child and final fox according to the source; quiet compassion, no new resurrection or reward."
+      ]
+    },
+    {
+      "episode_id": "04_dokkaebi_club_p01",
+      "title": {
+        "ko": "개암 한 알",
+        "en": "One\nHazelnut"
+      },
+      "question": {
+        "ko": "평범한 개암 한 알이 어떻게 도깨비를 놀라게 할까?",
+        "en": "How could one ordinary hazelnut frighten the dokkaebi?"
+      },
+      "motif": "부모님 몫 두 알과 자신의 한 알, 작은 소리와 큰 오해.",
+      "payoff": "개암 깨무는 소리에 놀라 달아나는 도깨비와 남겨진 방망이로 인과를 닫는다.",
+      "spoiler_guard": "개암을 마법폭탄·도토리·빛나는 보석으로 바꾸지 않는다. 오프닝에 보상을 미리 주지 않는다.",
+      "accent_rule": "승인된 황토빛과 낡은 옷의 작은 패치. 과도한 금빛 도배 금지.",
+      "opener_direction": "A close, readable grouping of exactly three ordinary brown hazelnuts: two carefully set aside on ivory cloth, one near the kind woodcutter's hand and approved gray patched cuff. A simple glimpse of the abandoned Korean cottage recedes behind them. The nuts occupy the middle-right and quiet mist the upper-left title area. The small ordinary object is the mystery. No glowing nuts, acorns, gold pile, stolen club or triumphant ending.",
+      "shot_focus": [
+        "Clearly separate the two nuts reserved for his parents from the one kept for himself.",
+        "Keep the remaining ordinary nut and the same empty cottage linked through the existing action.",
+        "Group the arriving dokkaebi into one readable focus; do not add a crowd or unrelated creatures.",
+        "The existing club and its produced gold are cause and result in the source shot, not a new spectacle.",
+        "Focus on the ordinary hazelnut being bitten; avoid body close-ups or an explosive magic effect.",
+        "Make the dokkaebi's retreat direction readable as a reaction to the sound; no attack or injury.",
+        "The single abandoned club is the earned story result; do not introduce a second club or Part 2 outcome."
+      ]
+    },
+    {
+      "episode_id": "04_dokkaebi_club_p02",
+      "title": {
+        "ko": "흉내 낸 행운",
+        "en": "Borrowed\nLuck"
+      },
+      "question": {
+        "ko": "똑같이 개암을 깨물면, 결과도 같을까?",
+        "en": "Will the same trick bring the same luck?"
+      },
+      "motif": "같은 개암과 빈집, 달라진 인물과 나누지 않는 손.",
+      "payoff": "도깨비가 이번에는 달아나지 않는 반전과 빈손을 대비한다.",
+      "spoiler_guard": "오프닝에 실패·구타·다친 얼굴을 보여주지 않는다. 착한 나무꾼과 얼굴·옷 구분.",
+      "accent_rule": "승인된 짙은 갈색 옷·황토색 깃으로 인물 구분. 새 마법 색상 금지.",
+      "opener_direction": "The different approved greedy neighbor with a narrow face, dark-brown hanbok and ochre collar occupies the right half. One ordinary hazelnut is readable in his hand; his other hand rests possessively near his existing pouch. He faces the same abandoned cottage with its forked beam and square window. Quiet indigo upper-left space supports the title. Do not reuse the kind woodcutter's face, place a club in the cottage, show an injury or reveal the failed trick.",
+      "shot_focus": [
+        "Separate the greedy observer from the original owner and treasure; do not transfer the club yet.",
+        "Focus on his attention to the nut as a shortcut, not on a new supernatural power.",
+        "Keep all the gathered nuts in his own pouch; visually contrast Part 1's two set-aside nuts.",
+        "The familiar empty cottage and hiding place establish the repeated setup with a different person.",
+        "Echo the ordinary biting action without faster playback or an exaggerated explosion.",
+        "Make the dokkaebi staying in place the reversal; do not mistakenly animate them fleeing again.",
+        "Empty hands and departure settle the consequence; no beating, humiliation crowd or Part 3."
+      ]
+    },
+    {
+      "episode_id": "05_maehwa_spirit",
+      "title": {
+        "ko": "매화령",
+        "en": "The Plum\nBlossom Promise"
+      },
+      "question": {
+        "ko": "눈 위에 서 있는데, 왜 발자국이 없을까?",
+        "en": "Why are there no footprints beneath her?"
+      },
+      "motif": "눈 위에 없는 발자국과 한 송이의 붉은 매화.",
+      "payoff": "끝에서 선비의 발자국만 남겨 처음의 부재를 회수한다.",
+      "spoiler_guard": "오프닝의 무덤·비석·꽃잎으로 사라지는 모습 금지. 창작 설화 표시 유지.",
+      "accent_rule": "승인된 작은 붉은 매화만 포인트. 원화 전체를 붉거나 검게 바꾸지 않는다.",
+      "opener_direction": "The approved fully clothed woman stands at the middle-right beneath the same crooked plum branch. Include her opaque skirt, still shoes and a clean expanse of untouched snow immediately beneath and around her, so the absence of footprints is plainly visible. A few muted cinnabar blossoms guide the eye toward that clue. Quiet ivory mist remains in the upper-left title area. No grave, memorial inscription, transparent body, ghost makeup or dissolving petals. This is a single poetic scene, not a collage.",
+      "shot_focus": [
+        "The snow beneath the same shoes must be visibly unmarked; the missing footprints are the opening clue.",
+        "Make the scholar's return and existing footprints readable without adding another arrival scene.",
+        "Keep the woman recognizable beneath the same branch, retaining the source's stillness.",
+        "Show the established memory of the promise using only the source scene; no new written letter or calendar.",
+        "Follow the approved petal reveal rather than animating flesh or faces dissolving.",
+        "The already-scripted old grave reveals the loss; no gore, exhumation or newly invented inscription.",
+        "Let the remaining scholar and his footprints answer the opening absence; no reunion or new sequel."
+      ]
+    }
+  ]
+}
