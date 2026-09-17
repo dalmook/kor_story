@@ -1,192 +1,180 @@
 # 02 · 선녀와 나무꾼 — 돌아간 날개
+## The Sky Maiden and the Woodcutter
 
-**헤르메스 실행 지시:** AGENTS.md와 공통 제작/수묵 편집 규격을 읽고 story_id=`02_fairy_and_woodcutter` 한 편만 실행한다. 28초, 4초씩 7컷, Flow 최대 50크레딧. 이미지·Flow 블록에 공통 화풍/캐릭터 규칙을 결합한다.
+v2 · story_id=`02_fairy_and_woodcutter` · 전래설화 각색 / Retold Korean Folktale.
 
-구분: 전래설화의 선녀 귀환 대목 재해석. [원전 개요](https://encykorea.aks.ac.kr/Article/E0011342). 사슴의 보은과 천상 후일담은 생략한다. 전 컷 선녀는 옷을 입고 있으며, 날개옷은 평상복 위에 걸치는 외투 같은 옷으로 설계한다. 옷을 숨긴 행동을 사랑의 모범으로 표현하지 않는다.
+공통 v2 문서 4개를 먼저 읽는다. 공용 Flow 7×4초 원본 → 28초 KO/EN 두 편. 두 언어 합산 최대 50/예상 49크레딧. 대사·인용 연기·립싱크 없음. narration/02_fairy_and_woodcutter.ko.txt와 .en.txt를 각각 한 연속 음성으로 읽는다.
 
-## 감독 방향
+## 스토리 재설계
 
-첫 장면은 **궤짝 틈에 갇힌 빛과 날개옷**. 이어 옷을 숨긴 사연, 아이들과 보낸 시간, 되찾은 옷, 귀환으로 진행한다. 첫 컷은 상징적 후킹이며 2컷에서 같은 궤짝을 닫는 행동으로 연결한다. 선녀가 스스로 방향을 선택하는 시선을 중심에 둔다.
+날개옷이 저절로 나타나는 우연을 없애고, 안심한 나무꾼이 직접 꺼내는 선택을 전환점으로 삼는다. 감춰진 귀환 수단 → 지상의 시간 → 나무꾼의 방심 → 선녀와 아이들의 귀환 → 빈 궤짝으로 끝낸다. 사랑의 승리나 도덕 훈계 대신 행동의 결과를 보여준다. 원전 여러 유형 중 선녀 귀환 대목을 축약하고 사슴/천상 방문/수탉 후일담은 생략한다. 출처: https://encykorea.aks.ac.kr/Article/E0011342
 
-색: 먹과 아이보리, 날개옷의 옅은 비취색만 강조. 폭포·비단·운무의 흐름은 아래에서 위로 상승하는 방향을 유지한다. 실제 날개 달린 서양 요정으로 만들지 않는다.
+## 캐릭터 잠금 / 공통 블록과 결합
 
-## 캐릭터 고정
+먹·아이보리·옅은 비취색. 선녀는 전 컷 완전히 옷을 입는다. 날개옷은 한복 위에 입는 비단 외투이며 몸에 날개가 돋는 방식이 아니다.
 
 ```text
-Fairy: one adult Korean woman, serene oval face, black hair in a low braided
-bun with a small jade pin, ivory jeogori and muted pale-jade chima, always
-fully clothed. Her wing robe is a separate translucent pale-jade outer garment
-with long silk ribbons, worn over her hanbok; no bird wings attached to her body.
-Woodcutter: adult Korean man, simple dark topknot, rough gray-brown cotton
-hanbok, straw sandals, no weapons shown, consistent rounded face.
-Children: two small fully clothed figures in ivory and muted blue hanbok,
-shown from behind or as simple silhouettes; no detailed toddler close-ups.
-Props: one dark wooden chest with a small round brass latch; keep its design.
+Sky maiden: adult Korean woman, calm oval face, low braided black bun with
+one small jade pin, ivory jeogori and pale-jade chima. Separate pale-jade
+outer flight robe with long silk ribbons, no attached bird wings.
+Woodcutter: adult Korean man, rounded face, simple topknot, rough gray-brown
+cotton hanbok, straw sandals, no weapon. Two small children in ivory and
+muted blue hanbok, distinct stable silhouettes. One wooden chest with a
+round brass latch; preserve the same chest and Korean cottage throughout.
 ```
 
-## 연속 내레이션
+## 컷 01 · 0~4초 · f0~119 · 붙잡아 둔 하늘
 
-> 그녀의 하늘은, 궤짝에 갇혀 있었다.
-> 나무꾼은 날개옷을 몰래 숨겼다.
-> 아이들이 자라도, 하늘은 그리웠다.
-> 마침내, 감춰 둔 옷이 나타났다.
-> 선녀는 두 아이를 품에 안았다.
-> 그리고, 제 하늘로 돌아갔다.
-> 날개를 숨겨도, 마음은 가둘 수 없었다.
-
-서정적이지만 늘어지지 않게. 마지막 문장은 이 작품의 새 해석. 한 화자/연속 음성, 오독과 실제 길이 검수 필수.
-
-## 컷 01 · 0~4초 · [0,120) · 갇힌 하늘
-
-**화면:** 궤짝 틈에서 옅은 비취 비단이 아주 조금 보임. 둥근 잠금쇠 중심을 다음 컷에도 유지. 강조어 `갇혀 있었다`.
+**KO:** 선녀가 떠나지 못한 건, 사랑 때문이 아니었다.
+**EN:** Love wasn't what kept the sky maiden on earth.
 
 **이미지 프롬프트**
 ```text
-Macro close-up of a dark wooden Korean chest with a round brass latch at
-center. Through a narrow existing gap beneath the lid, a small strip of
-pale-jade silk is visible, lit softly from within. Ivory hanji background,
-charcoal woodgrain, quiet mysterious composition. No hands or people yet.
+Macro view of a dark wooden chest, round brass latch centered. A pale-jade
+silk ribbon is barely visible through a narrow gap under the lid. Soft
+ivory light touches the cloth, charcoal woodgrain and ample negative space.
+No people, writing or magical symbols.
 ```
 **Flow 모션 프롬프트**
 ```text
-The small silk strip flutters gently once through the narrow gap as a faint
-breeze passes. Keep the chest and round latch completely fixed. A soft band
-of light moves over the silk without becoming neon. Locked macro view,
-no chest opening and no extra fabric appearing.
+The small strip of silk flutters once through the gap, then settles. The
+chest and latch stay fixed. Soft reflected light moves on the cloth, never
+neon. Locked macro shot, no lid opening or extra fabric appearing.
 ```
-**내부 타이밍/음향:** 시작 0.3초 안에 비단이 움직임. 1~3초 틈의 빛 변화. 작은 천 마찰만; 음산한 비명 금지. f120에서 다음 컷의 잠금쇠에 매치컷.
+**편집·음향:** 시작 0.3초 안 작은 천 움직임. `사랑 때문이 아니었다 / Love wasn't`는 내레이터의 서술일 뿐 인물 대사가 아니다. 조용한 비단 마찰, 음악은 낮게.
 
-## 컷 02 · 4~8초 · [120,240) · 숨긴 날개옷
+## 컷 02 · 4~8초 · f120~239 · 숨긴 옷
 
-**화면:** 동일 궤짝, 나무꾼의 몸과 한 손만 측면. 옷이 이미 안에 들어 있고 뚜껑을 한 번 닫음. 벗은 선녀나 목욕 장면은 넣지 않는다.
+**KO:** 나무꾼이 하늘로 돌아갈 날개옷을 숨겼다.
+**EN:** The woodcutter had hidden her robe of flight.
 
 **이미지 프롬프트**
 ```text
-Medium close-up of the same wooden chest in a humble Korean cottage. Its
-lid is slightly open and the pale-jade outer wing robe is already folded
-inside. The approved woodcutter stands at one side, one hand resting on the
-lid, gray-brown sleeve visible. The round latch is aligned near center.
+Medium close-up of the same chest inside the cottage, lid partly open,
+pale-jade flight robe already folded inside. The woodcutter's gray-brown
+sleeve and one hand rest on the lid from the side. Match the round latch
+position to the preceding shot. No unclothed character.
 ```
 **Flow 모션 프롬프트**
 ```text
-The woodcutter gently closes the chest lid in one restrained motion and
-keeps his hand resting there. The last strip of silk retreats inside without
-changing shape. Preserve the hand and hinge geometry. No locking mechanism
-close-up, no extra action and no other character entering.
+The woodcutter closes the lid slowly once and rests his hand on it. Keep
+hinges, fingers and cloth stable, no locking sequence. Fixed camera and
+one action only; no second character entering.
 ```
-**내부 타이밍/음향:** 4.5~6.5초 닫힘, 6.5~7.6초 손의 멈춤. 1회의 나무 닫히는 소리를 낮게. 행동을 귀엽거나 낭만적인 코믹 장단으로 강조하지 않는다.
+**편집·음향:** 4.5~6.5초 닫힘, 작은 나무 마찰. 낭만적인 코믹 장단 대신 숨긴 행위의 무게를 유지. 잠금쇠 원을 다음 전환의 파문 중심으로 쓴다.
 
-## 컷 03 · 8~12초 · [240,360) · 지상의 시간
+## 컷 03 · 8~12초 · f240~359 · 잊지 못한 곳
 
-**화면:** 처마 밑 선녀와 두 아이의 뒷모습. 선녀만 하늘을 바라본다. 여러 계절이 순식간에 변하는 모핑 대신 나뭇잎 두세 장으로 시간의 흔적을 암시.
+**KO:** 아이 둘이 태어나도, 선녀는 하늘을 그리워했다.
+**EN:** Even with two children, she still missed the sky.
 
 **이미지 프롬프트**
 ```text
-Back view of the approved fully clothed fairy sitting under a Korean cottage
-eave with two small children beside her, one on each side. The children are
-simple stable silhouettes. She looks toward an open pale sky beyond a
-quiet courtyard. A few faded leaves rest on the wooden floor, pale-jade skirt.
+Back view of the sky maiden seated beneath the cottage eave with exactly
+two children, one on each side. Pale-jade skirt, dark bun and jade pin
+recognizable. She faces the open sky beyond the courtyard. A few fallen
+leaves on the wooden floor suggest passing years without text.
 ```
 **Flow 모션 프롬프트**
 ```text
-The fairy slowly tilts her head upward toward the open sky while the two
-children remain seated still. A few leaves drift across the distant yard and
-her sleeve moves slightly. Keep three figures distinct, no aging morph,
-no walking and no sudden change of season.
+She tilts her head slightly upward while both children remain seated.
+Her sleeve lifts subtly and two leaves drift across the distant yard.
+No aging morph, no season jump, no walking or speaking mouths.
 ```
-**내부 타이밍/음향:** 8.2~10초 시선 위로 → 10~11.7초 떨어지는 잎. 천천히 흐르는 대금 질감 음악 방향, 실제 허가된 음원만 사용.
+**편집·음향:** 8.3~10.2초 시선 상승. 소박한 바람, 실제 허가된 낮은 악기 음원만. 두 아이를 한 인물로 합치지 않는다.
 
-## 컷 04 · 12~16초 · [360,480) · 되찾은 옷
+## 컷 04 · 12~16초 · f360~479 · 방심
 
-**화면:** 같은 궤짝은 이미 열려 있다. 날개옷 한 끝이 선녀 손에서 살짝 들어 올려지는 단일 행동. 숨기기와 발견의 차이를 조명으로 표현.
+**KO:** 안심한 나무꾼이 어느 날 그 옷을 꺼냈다.
+**EN:** One day, he felt safe enough to reveal it.
 
 **이미지 프롬프트**
 ```text
-The same chest now stands open in soft dawn light. The fully clothed fairy
-is seen from the side, one hand already holding the edge of the pale-jade
-wing robe above the chest. Her face is calm but newly resolved. Simple
-readable cloth folds, ivory space above, the same brass latch below.
+The same chest already stands open. The woodcutter is on the left with one
+hand already holding the edge of the folded pale-jade robe just above the
+chest. The fully clothed sky maiden watches silently from the right. Stable
+side-on composition, clear separation between hands and faces, soft dawn light.
 ```
 **Flow 모션 프롬프트**
 ```text
-She lifts the already-held edge of the wing robe slowly by a short distance.
-The long silk ribbons unfold gently under gravity while her hand and body
-remain stable. Soft light brightens the cloth. No dressing transformation,
-no changing outfit and no extra hands.
+The woodcutter lifts the already-held edge of the robe a short distance,
+revealing its long silk ribbons. The woman stays still and looks at it.
+Preserve both faces and his single hand. No dressing action, no transfer
+between hands, no dialogue or changing costumes.
 ```
-**내부 타이밍/음향:** 12.3~14.8초 비단 상승 → 14.8~15.7초 빛. 비단 마찰음 한 번. 천이 얼굴을 지나가며 변형시키지 않음.
+**편집·음향:** 12.5~14.8초 비단을 들어 보여줌. 문서 v1의 여인이 우연히 발견하는 구도가 아니라 **나무꾼이 직접 꺼내는 모습**이어야 한다. 들린 비단이 다음 컷 가림막의 방향을 만든다.
 
-## 컷 05 · 16~20초 · [480,600) · 아이들과 함께
+## 컷 05 · 16~20초 · f480~599 · 망설임 없는 선택
 
-**화면:** 선녀는 날개옷을 이미 한복 위에 걸친 상태. 두 아이를 양옆으로 안은 단순한 뒷모습. 입는 과정·아이를 들어 올리는 복잡 동작은 생략.
+**KO:** 선녀는 망설임 없이 두 아이를 품에 안았다.
+**EN:** She gathered both children without a moment's hesitation.
 
 **이미지 프롬프트**
 ```text
-Back view of the fairy already wearing the pale-jade wing robe over her ivory
-hanbok, standing at the edge of the courtyard. Her two children are already
-held close, one at each side, as simple clear silhouettes. Long outer-robe
-ribbons curve upward into the breeze. A pale path of cloud opens ahead.
+Back view of the sky maiden already wearing her pale-jade outer flight robe
+over the same hanbok. Both children are already held close at either side.
+They stand in the courtyard, three distinct stable silhouettes. Long silk
+ribbons rise gently toward open sky. No wings attached to the body.
 ```
 **Flow 모션 프롬프트**
 ```text
-The three figures gently lean together as the fairy's long outer ribbons
-lift in the breeze. Keep the children securely in the same positions and
-all bodies grounded for this shot. The camera drifts upward slightly;
-no lifting of children, no extra limbs, no takeoff yet.
+She draws the already-close children slightly nearer without changing their
+positions. The outer ribbons lift gently in the wind. All three remain
+grounded, bodies stable. No lifting choreography, extra limbs or takeoff yet.
 ```
-**내부 타이밍/음향:** 16~17.5초 한 덩어리 가족 형상 → 17.5~19.7초 비단 위로. BGM은 희망적으로 열되 승리의 팡파르 금지.
+**편집·음향:** 16.3~18초 가족의 작은 모임, 18~19.7초 비단 위로. 두 아이를 들어 올리는 어려운 생성 대신 이미 안은 자세를 유지. 인물 감탄사 없음.
 
-## 컷 06 · 20~24초 · [600,720) · 돌아간 하늘
+## 컷 06 · 20~24초 · f600~719 · 귀환
 
-**화면:** 먼 거리의 세 실루엣이 비단 구름 위로 작은 상승. 인물의 머리/다리는 세부 묘사하지 않는다. 세 존재가 하나로 합쳐지지 않도록 간격 고정.
+**KO:** 날개옷이 펼쳐지자, 셋은 구름 너머로 사라졌다.
+**EN:** The robe unfurled. All three vanished into the clouds.
 
 **이미지 프롬프트**
 ```text
-A distant back-view group of the same fairy and two children on a pale cloud
-above layered Korean ink mountains. Their three silhouettes are distinct,
-linked by the fairy's pale-jade outer robe. Wide ivory sky, upward-flowing
-mist, the cottage tiny below. No feathered wings, angels or flying animals.
+Distant back view of the sky maiden and her two children already on a thin
+cloud above ink mountains. Three separate small silhouettes linked by the
+pale-jade robe and its long ribbons. Tiny cottage far below. Wide ivory sky,
+no flying animals, no angels and no western fairy wings.
 ```
 **Flow 모션 프롬프트**
 ```text
-The cloud gently rises with the three fixed silhouettes as a single stable
-group over a short distance. Silk ribbons trail below and mist parts slowly.
-Keep all three figures separate and small. No spinning, no body morphing,
-no flight across multiple locations and no new landscape.
+The small cloud lifts the stable group upward a short distance as silk
+ribbons trail below. Mist gathers around them softly. Keep all three
+silhouettes separate; no spinning, body transformation or location change.
 ```
-**내부 타이밍/음향:** 실제 상승을 확인하고 20.5~23초에 서서히. 길이 부족한 결과를 초장거리 슬로모션으로 숨기지 않는다. 바람의 고음은 음성을 가리지 않게.
+**편집·음향:** 20.4~22.5초 상승, 후반의 부드러운 안개 오버레이가 가리며 사라짐을 완성. 전신 모핑 없이 구름에 가려지도록. 바람은 내레이션보다 낮게.
 
-## 컷 07 · 24~28초 · [720,840) · 남겨진 빈자리
+## 컷 07 · 24~28초 · f720~839 · 빈 궤짝
 
-**화면:** 빈 궤짝과 열린 창. 나무꾼은 아주 작은 뒷모습으로 멀리 배치하거나 손/어깨만. 주제는 벌이 아니라 붙잡을 수 없는 마음.
+**KO:** 남은 건 빈 궤짝, 그리고 뒤늦은 후회뿐이었다.
+**EN:** He was left with an empty chest—and regret.
 
 **이미지 프롬프트**
 ```text
-Quiet interior of the same cottage after departure. The wooden chest is
-open and empty in the foreground, its round brass latch visible. An open
-paper window frames an immense pale sky. The woodcutter is a small still
-back-view silhouette far to the side. A plain ivory curtain hangs by the window.
+The same chest stands open and empty in the cottage foreground, round brass
+latch clear. The woodcutter sits beside it in profile, hands lowered, facing
+an open window and immense pale sky. A plain ivory curtain hangs nearby.
+No gold, no robe inside the chest, no returning maiden.
 ```
 **Flow 모션 프롬프트**
 ```text
-The plain ivory curtain gently lifts toward the open window once and settles.
-The chest stays empty and the distant man remains still. A soft cloud drifts
-past the window. Slow minimal pullback, no returning fairy, no new objects
-inside the chest and no dramatic crying.
+The woodcutter lowers his head slightly toward the empty chest. The curtain
+moves softly toward the open window. Keep his closed mouth and hands still;
+no dramatic crying, no dialogue and no new objects appearing.
 ```
-**내부 타이밍/음향:** 24.2~26.5초 창 쪽으로 커튼 → 26.5~28초 여백. 끝말 `없었다` 이후 음악과 바람 잔향, 따로 엔딩 카드 없음.
+**편집·음향:** 24.3~26초 고개, 26~28초 열린 창과 빈자리. 말끝 후 짧은 여운. 인물의 흐느낌을 TTS로 추가하지 않는다.
 
-## 6개 전환
+## 공용 전환
 
-| 경계 | 효과 / 길이 | 구체 구현 |
+| 경계 | 종류 / 길이 | 구현 |
 |---|---|---|
-| f120 / 4초 | MATCH_CUT / 0f | 같은 둥근 잠금쇠를 (0.5W,0.52H)에 맞춰 접사→반신 구도 연결 |
-| f240 / 8초 | WATER_RIPPLE / 16f | 잠금쇠 원에서 옅은 원형 파문, 한지색 가림 뒤 처마 아래 풍경 |
-| f360 / 12초 | FOG_VEIL / 18f | 창 밖 여백의 안개가 좌→우로 덮이고 열린 궤짝 등장 |
-| f480 / 16초 | CLOTH_WIPE / 16f | 들어 올린 비취 비단이 아래→위로 가림, 이미 입은 날개옷으로 연결 |
-| f600 / 20초 | CLOTH_WIPE / 16f | 오른쪽 소매와 구름이 우하→좌상, 세 실루엣의 상승 장면을 드러냄 |
-| f720 / 24초 | FOG_VEIL / 18f | 하늘 구름이 위→아래로 덮이고 빈 궤짝의 실내로, 대비는 부드럽게 |
+| f120 | MATCH_CUT / 0f | 같은 잠금쇠 (0.5W,0.52H) 접사→중간 구도 |
+| f240 | WATER_RIPPLE / 16f | 잠금쇠 원에서 한지 파문이 전면 가림 후 처마 아래 |
+| f360 | FOG_VEIL / 18f | 하늘 여백 좌→우 안개, 열린 궤짝/나무꾼으로 |
+| f480 | CLOTH_WIPE / 16f | 나무꾼이 들어 올린 비단 아래→위, 이미 입은 날개옷 |
+| f600 | CLOTH_WIPE / 16f | 비단 우하→좌상, 상승하는 세 실루엣 |
+| f720 | FOG_VEIL / 18f | 구름 위→아래 가림, 빈 궤짝의 실내 |
 
 ## 추가 QA
 
-전 컷 한복 착용, 아이는 정확히 두 명, 날개옷은 별도의 비단 외투, 서양식 날개/나비 요정 금지. 실루엣 3인이 뭉개지면 로컬 가림막으로 잠깐 감출 수 있는 수준인지 판단하고 실패는 기록한다. 1컷과 7컷의 궤짝/잠금쇠가 같아야 한다. 음성은 피해자의 귀환을 차분하게 전달하고 유괴 로맨스처럼 연출하지 않는다. 최종 840프레임과 비용원장 확인.
+두 언어 모두 숨긴 사람/꺼낸 사람/떠난 사람의 인과가 동일해야 한다. 두 아이/세 실루엣 수, 같은 궤짝, 항상 옷을 입은 선녀, 동물 날개 없음 확인. 선녀 대사를 넣지 않으며 4컷의 나무꾼이 말을 하는 입도 금지. 공용 master 해시와 2개 언어의 840프레임/자막/내레이션을 각각 검수한다.

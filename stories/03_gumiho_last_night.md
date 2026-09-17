@@ -1,197 +1,180 @@
-# 03 · 구미호의 마지막 밤
+# 03 · 구미호의 마지막 밤 / The Fox Spirit's Last Night
 
-**헤르메스 실행 지시:** AGENTS.md와 공통 제작/수묵 편집 규격을 읽고 story_id=`03_gumiho_last_night` 한 편만 제작한다. 7개의 독립 4초 Flow 영상, 최종 28초, 편당 최대 50크레딧. 영문 블록은 공통 화풍·고정 캐릭터·공통 Flow 지침과 결합한다.
+v2 · story_id=`03_gumiho_last_night` · 한국풍 창작 설화 / Original Korean-Inspired Tale.
 
-**구분: 한국풍 창작 설화.** 이 이야기의 천 년/마지막 구슬/아이를 위한 희생이라는 구체 규칙은 창작이다. 실제 채록된 구미호 설화의 줄거리라고 소개하지 않는다. 첫 컷 작은 분류 표기와 영상 설명에 `한국풍 창작 설화`를 넣는다.
+공통 v2 문서 4개를 읽고 공용 Flow 7컷으로 KO/EN 두 편을 만든다. 각 28초/840프레임, 두 언어 합산 Flow 최대 50/예상 49. 등장인물 대사·속삭임·립싱크 없이 화면 밖 내레이션만. narration/03_gumiho_last_night.ko.txt와 .en.txt가 연속 낭독용 파일이다.
 
-## 감독 방향
+## 스토리 재설계
 
-`사람이 되고 싶은 여우 → 아이를 살리려는 선택 → 인간보다 인간다운 마음`의 반전이다. 천 년을 자막 숫자 카운터로 설명하지 않는다. 작은 구슬 하나가 모든 컷의 시선을 연결한다.
+천 년의 기회가 구슬 하나에 담겼다는 규칙을 먼저 보여준다. 아이를 발견 → 망설임 → 구슬을 내줌 → 아이의 회복과 빛의 소멸을 같은 순간에 보여줌 → 꿈을 잃음 → 여우로 남은 존재의 인간적인 마음. 마지막 희생이 우연한 마법처럼 보이지 않게 원인과 대가를 연결한다.
 
-색: 아이보리 눈, 은청색 먹, 구슬의 옅은 비취빛. 붉은 눈/피/괴물 발톱/폭력 없는 신비감. 구미호의 몸이 실시간으로 뒤틀리는 변신은 생성하지 않는다. 마지막 여우 모습은 별개의 7컷 이미지에서 시작하고 먹 가림으로 연결한다.
+이 작품의 새벽/천 년/한 번뿐인 구슬/아이 구원 규칙은 창작이다. 실제 지역 전설의 정본으로 소개하지 않는다. 변신은 얼굴/신체 모핑이 아니라 안개 가림 뒤 별도 여우 컷으로 표현한다.
 
-## 캐릭터와 소품 잠금
+## 캐릭터 잠금
 
 ```text
-Fox spirit in human form: adult Korean woman with an oval face, long black
-hair tied low by one narrow pale-jade ribbon, ivory hanbok with blue-gray
-cuffs, quiet compassionate expression. No visible fox ears in human form.
-Child: one Korean child about eight, short dark hair, muted indigo coat,
-wrapped in an ivory scarf, always fully clothed, no wounds.
-Orb: a single small pearl-like pale-jade bead, never multiple gems, its
-light is soft mineral pigment, not neon or a laser.
-Fox form for shot seven only: one slender white fox with black brush ear
-tips and the same narrow pale-jade ribbon at its neck. Tail complexity is
-shown by a separate ink-shadow overlay, not generated anatomical detail.
-Setting: the same snowy Korean pine forest, no palace, no modern objects.
+Human-form fox spirit: adult Korean woman, oval face, long black hair tied
+low by one narrow pale-jade ribbon, ivory hanbok with blue-gray cuffs,
+compassionate expression, no visible animal ears. Child: one child about
+eight in an indigo coat and ivory scarf, no injury. Orb: one small pearl,
+pale-jade mineral-pigment light, never multiple gems or neon. Fox form only
+in shot seven: one slender white fox, black brush ear tips and the same
+jade neck ribbon. One snowy Korean pine forest throughout.
 ```
 
-## 연속 내레이션
+먹·아이보리 눈·은청색·구슬/리본의 작은 비취색. 각 이미지에 공통 화풍과 참조를, 모션에 공통 Flow/NO_SPEECH를 결합한다. 꼬리 아홉 개는 생성모델에 맡기지 않고 후반 먹 그림자 9경로로 구현한다.
 
-> 그 밤, 여우는 사람이 될 수 있었다.
-> 천 년을 기다려 얻은 마지막 구슬.
-> 그때, 눈 속에서 아이가 쓰러졌다.
-> 그녀는 구슬을 아이에게 건넸다.
-> 숨이 돌아오자, 여우의 꼬리가 드러났다.
-> 사람이 될 기회는 사라졌다.
-> 그날, 가장 사람다운 것은 여우였다.
+## 컷 01 · 0~4초 · f0~119 · 새벽의 기회
 
-화자 한 명, 과도한 비장함 없이 담백한 설화 구연. 5컷의 `꼬리`와 7컷의 `사람다운`에 약한 강조. 길이와 호흡은 실제 음성을 듣고 조절.
-
-## 컷 01 · 0~4초 · [0,120) · 마지막 기회
-
-**화면:** 여인 반신. 가슴 앞 이미 든 구슬이 화면 중앙, 눈빛은 아래를 향함. 첫 0.4초 안에 구슬의 미세한 움직임과 선택을 앞둔 긴장.
+**KO:** 새벽이 오면, 이 여우는 사람이 될 수 있었다.
+**EN:** At dawn, this fox spirit could finally become human.
 
 **이미지 프롬프트**
 ```text
-The approved adult fox-spirit woman stands alone among snowy Korean pine
-trees, medium close-up. She already holds one pale-jade pearl at chest height
-in a steady open palm near the center. Her ivory hanbok and blue-gray cuffs
-are clear. Her eyes rest on the pearl. Spacious silver-ink snow and quiet mist.
+The approved woman stands alone among snowy pines, medium close-up. One
+pale-jade pearl rests in her steady open palm at chest height. Her low jade
+hair ribbon and ivory sleeve are clearly visible. A thin pale band of dawn
+lies far behind the trees; restrained silver ink and spacious ivory snow.
 ```
 **Flow 모션 프롬프트**
 ```text
-She slowly lowers her gaze to the single pearl and takes one small visible
-breath. Her low hair ribbon moves gently in the wind. Keep the hand, pearl
-and face stable. Snow drifts lightly behind her. No speaking, no tails,
-no face transformation and no extra jewels.
+She lowers her eyes toward the single pearl and takes one subtle breath.
+Her hair ribbon moves lightly in the wind. Keep face, closed mouth, hand
+and pearl stable. Snow drifts behind her. No transformation or new objects.
 ```
-**타이밍/음향:** 0.3~2초 시선 → 2~3.7초 작은 숨. 한 번의 부드러운 맑은 음과 눈밭 바람. 구슬을 크리스마스 조명처럼 깜빡이지 않는다.
+**편집·음향:** 0.2~2초 시선과 숨. 첫 컷에 여우 귀나 꼬리가 몸에서 돋아나지 않음. 하나의 낮고 맑은 음, 배경은 눈밭 바람. 내레이터가 `fox spirit`으로 정체를 설명.
 
-## 컷 02 · 4~8초 · [120,240) · 천 년의 구슬
+## 컷 02 · 4~8초 · f120~239 · 한 번뿐인 구슬
 
-**화면:** 구슬 접사. 손가락을 쥐었다 펴는 동작 대신 손바닥은 고정. 구슬 위치와 크기를 1컷에서 자연스럽게 확대.
+**KO:** 천 년을 모은 구슬, 단 한 번의 기회였다.
+**EN:** One pearl held a thousand years of waiting.
 
 **이미지 프롬프트**
 ```text
-Extreme close-up of the same single pale-jade pearl resting in the woman's
-still open palm. Ivory sleeve and blue-gray cuff frame the lower edge. A
-soft reflection of one crescent moon lies on the pearl. Minimal diluted-ink
-background, delicate paper fibers, no symbols or engraved writing.
+Macro view of the same single pearl in her still palm. Ivory sleeve with
+blue-gray cuff frames the lower edge. A faint crescent reflection rests on
+the surface. Quiet pale-jade light, clear round pearl, no engraved words
+or magic symbols, clean hanji background.
 ```
 **Flow 모션 프롬프트**
 ```text
-The sleeve edge flutters subtly beside the still palm, and the reflected
-moonlight drifts slightly across the pearl's surface. Keep the pearl round
-and the hand unchanged. No finger movement, no multiplying beads and no
-light beam. One quiet continuous macro shot.
+A small reflection moves over the pearl while the sleeve edge flutters.
+Keep palm, fingers and pearl roundness unchanged. Locked macro shot,
+no floating bead, no multiplication, no light beam or pulsating neon.
 ```
-**타이밍/음향:** 4.2~6.5초 반사 이동 → 6.5~7.7초 고요. `천 년`은 구연으로만. 화면 밖 어린 숨소리를 임의 생성하지 않는다.
+**편집·음향:** 4.3~6.5초 반사 이동. 구슬이 빛을 가졌음을 명확히 보여 5컷의 소멸과 대비. 숫자 카운터·천 년 역사 몽타주는 추가하지 않는다.
 
-## 컷 03 · 8~12초 · [240,360) · 눈 속의 아이
+## 컷 03 · 8~12초 · f240~359 · 눈 속의 아이
 
-**화면:** 아이는 이미 소나무 밑에 옆으로 기대어 쓰러진 상태. 추락이나 충돌을 보여주지 않는다. 소매가 바람에 움직여 정지 슬라이드쇼가 되지 않게.
+**KO:** 그때 눈밭에서, 아이 하나가 숨을 잃어 갔다.
+**EN:** Then she found a child freezing in the snow.
 
 **이미지 프롬프트**
 ```text
-One fully clothed child in the approved muted indigo coat and ivory scarf
-rests weakly against the base of a snow-covered pine. Eyes closed, peaceful
-non-graphic depiction, no wounds. A few snowflakes gather on the scarf.
-The tree trunk frames one side, empty snowy path on the other, wide mid-shot.
+One fully clothed child rests weakly against a pine in the same snowy grove,
+eyes closed, indigo coat and ivory scarf. Non-graphic, no wounds. A little
+snow lies on the scarf. Mid-shot with empty snow on one side and dark pine
+trunk on the other, stable child proportions.
 ```
 **Flow 모션 프롬프트**
 ```text
-A small breath gently moves the child's scarf once while a few snowflakes
-slide off its edge. Keep the child resting still with eyes closed; no fall,
-no shivering convulsions, no pain expression. Slow restrained camera drift
-closer, stable face and clothing throughout.
+One faint breath gently moves the scarf, and a few snowflakes slip off it.
+The child remains resting with eyes closed. Subtle camera drift closer,
+no fall, convulsion, exaggerated pain or speech-like mouth movement.
 ```
-**타이밍/음향:** 8~9초 아이 위치 읽힘 → 9~11.5초 스카프/호흡의 작은 움직임. BGM을 낮추고 차가운 바람만, 심박 경보음 금지.
+**편집·음향:** 8.2~10.5초 스카프의 작은 호흡. 기절/위험은 목소리와 자세로만 전달, 죽음 장면/심전도/의료 설명은 없음. 낭독 아래 음악을 줄여 발견의 의미를 살림.
 
-## 컷 04 · 12~16초 · [360,480) · 선택
+## 컷 04 · 12~16초 · f360~479 · 선택의 순간
 
-**화면:** 여인이 이미 아이 옆에 앉아 구슬을 가슴 가까이 내민 상태. 의료 처치처럼 보이는 행위나 삼키기는 없다. 마법은 서사적 은유다.
+**KO:** 여우는 망설이다, 구슬을 아이에게 내주었다.
+**EN:** She hesitated, then gave the child her pearl.
 
 **이미지 프롬프트**
 ```text
-The woman kneels beside the same resting child under the pine. In a simple
-side composition, her open palm holds the single pearl just above the child's
-scarf at chest height. Both bodies are stable and fully clothed. Her face is
-resolved, not anguished. The pearl is the central focal point; no contact injury.
+Simple side view of the woman kneeling beside the resting child. Her open
+palm already holds the pearl just above the child's scarf. Both faces and
+bodies stay separate, her sleeve drapes clearly, the pearl is the focal point.
+No touching mouths, no swallowing, no medical instrument.
 ```
 **Flow 모션 프롬프트**
 ```text
-She lowers her already-extended open palm a few centimeters toward the
-child's scarf and pauses. The child's position remains unchanged. Her sleeve
-falls gently under gravity. Keep both faces and the pearl consistent; no
-swallowing, no hand transfer, no sudden healing burst and no extra fingers.
+She pauses briefly, then lowers the already-extended palm a few centimeters
+toward the scarf. The child remains still. Her sleeve follows softly.
+Keep hand anatomy and pearl consistent. No complex transfer, no bright blast.
 ```
-**타이밍/음향:** 12.5~14.8초 손의 짧은 하강 → 14.8~15.7초 결심. 구슬 빛을 편집으로 최대 약 15% 밝히되 얼굴 색을 바꾸지 않는다. 낮은 단일 현의 여운.
+**편집·음향:** 12.3~13초 짧은 망설임, 13~15.2초 내려놓는 방향의 동작. 내레이션이 그 망설임을 과장된 한숨/대사로 대체하지 않음. 손 사이 전달/입에 넣기 없음.
 
-## 컷 05 · 16~20초 · [480,600) · 꼬리의 그림자
+## 컷 05 · 16~20초 · f480~599 · 대가가 보이는 순간
 
-**화면:** 아이는 같은 위치에서 눈을 뜨기 시작하고 구슬은 스카프 위에 놓여 있다. 여인은 옆모습 그대로. 꼬리는 **Flow에 만들라고 하지 않고** 눈 위 그림자에 후반 합성한다.
+**KO:** 아이가 눈을 뜨자, 구슬의 마지막 빛이 꺼졌다.
+**EN:** The child woke. The pearl's last light went out.
 
 **이미지 프롬프트**
 ```text
-The child now rests upright against the same pine, eyes gently closed before
-opening, with the single dim pearl already lying on the ivory scarf. The
-woman kneels at the side, seen mostly from behind. Leave a broad clean patch
-of snow behind her for a separately composited shadow. No visible tails yet.
+The child rests more upright against the same pine, eyes still gently closed
+before opening. The same pearl already lies on the ivory scarf; its base
+surface is pale but not strongly glowing. The woman kneels beside the child,
+mostly back-view. Leave clean snow behind her for a later shadow overlay.
 ```
 **Flow 모션 프롬프트**
 ```text
-The child opens their eyes slowly once and takes a gentle breath. The woman
-remains still, her low pale-jade hair ribbon moving slightly. Keep the pearl
-on the scarf and preserve both figures. Do not generate tails, magic animals,
-body transformations or bright flashes.
+The child slowly opens their eyes once and breathes gently. The woman stays
+still with slight hair-ribbon movement. Keep the pearl fixed on the scarf.
+No generated tails, no transformation, no bright flash and no speaking.
 ```
-**후반 애니메이션:** 약 17.2~18.5초에 여인 뒤 눈 위로 9개의 먹 꼬리 경로를 순서대로 드러낸다. 정확한 구현은 INK_EDITING_SPEC 특수 애니메이션. 꼬리 경로 끝을 셀 수 있어야 하고 신체와 겹쳐 얼굴/아이를 가리지 않는다. 그림자는 약한 좌우 흔들림만.
+**편집·음향:** 실제 눈뜨는 시점(목표 17~18초)에 맞춰 후반의 구슬 glow를 10~16프레임 동안 낮춘다. Flow 시작은 무발광 구슬이므로 glow를 로컬에서 붙였다가 없앤다. 17.8~19.2초 여인 뒤 눈에 먹 꼬리 **9개 경로**를 드러냄. 양쪽 낭독의 `빛이 꺼졌다 / light went out`는 실제 소멸 부근에 정렬한다. 순간 섬광/폭발 없음.
 
-**음향:** 아이 눈뜨는 시점에 부드러운 한 음, 꼬리에는 공포 비명 대신 얇은 바람. 원본 영상의 임의 대화는 제거.
+## 컷 06 · 20~24초 · f600~719 · 사라진 꿈
 
-## 컷 06 · 20~24초 · [600,720) · 기회를 놓다
-
-**화면:** 여인 뒷모습과 아이의 멀리 작은 실루엣. 비어 있는 손을 낮춰 떠날 준비. 화면이 가려진 뒤 여우 컷으로 넘어가므로 몸을 변형하지 않는다.
+**KO:** 여우가 천 년을 기다린 기회도 함께 사라졌다.
+**EN:** So did her only chance to become human.
 
 **이미지 프롬프트**
 ```text
-Back view of the same woman on the snowy forest path, her empty hand resting
-at her side and her pale-jade hair ribbon clearly visible. The recovered
-child is a small still seated figure far behind under the pine. Broad ivory
-mist ahead. No tails attached to her body, no visible wound or tears close-up.
+Back view of the same woman on the snowy path, empty hand lowered beside
+her ivory robe, jade hair ribbon clear. The now-awake child is a small
+seated figure far behind. Pale dawn reaches the pine trunks. Clean snow
+for the existing shadow motif, no body changes or new creatures.
 ```
 **Flow 모션 프롬프트**
 ```text
-The woman makes one small turn of her head away from the child, then lowers
-her empty hand slightly. Her long hair and ribbon move in the wind. The
-child stays still in the background. No walking cycle, no disappearance,
-no transformation into an animal.
+She turns her head slightly away from the child and lets her empty hand
+settle. Hair and ribbon move in the wind. The distant child remains still.
+No walking cycle, vanishing body or transformation into an animal.
 ```
-**타이밍/음향:** 20.3~22.5초 조용한 고개 돌림 → 22.5~23.7초 손의 빈자리. 꼬리 그림자를 유지할 경우 같은 9개 경로만 재사용. 음악을 잠시 가늘게 줄임.
+**편집·음향:** 20.5~22.4초 빈손과 돌아서는 고개. 5컷의 아홉 경로 그림자를 필요시 그대로 재사용. 천 년 설명을 새로 늘리지 말고 대가를 한 문장으로 마침. 후반 안개가 7컷으로 가림.
 
-## 컷 07 · 24~28초 · [720,840) · 가장 사람다운 것
+## 컷 07 · 24~28초 · f720~839 · 남은 마음
 
-**화면:** 같은 길 위 흰 여우가 이미 앉아 있다. 목의 비취 리본으로 동일 존재임을 연결. 회복한 아이는 먼 배경이며 인물/동물 합체 금지.
+**KO:** 사람이 되진 못했다. 하지만 그 마음은 사람이었다.
+**EN:** She stayed a fox. Her kindness was entirely human.
 
 **이미지 프롬프트**
 ```text
-One slender white fox already sits on the same snowy pine-forest path,
-three-quarter rear view. Its black brush ear tips and narrow pale-jade neck
-ribbon are clear. One simple tail is visible physically; leave clean snow
-for a separately added nine-tail ink shadow. The small recovered child is
-far behind. A pale warm dawn enters the silver-ink forest.
+One white fox already sits on the same snowy path in three-quarter rear
+view, black brush ear tips and the same narrow jade ribbon at its neck.
+One simple physical tail, clear snow for a separate nine-tail shadow.
+The recovered child is small in the distance. Warm ivory dawn, no woman.
 ```
 **Flow 모션 프롬프트**
 ```text
-The single white fox slowly turns its head back toward the distant child
-once. Its neck ribbon moves gently and snow drifts past. Keep the animal's
-anatomy stable and the simple visible tail unchanged. No morph from a human,
-no extra animals, no generated nine-tail growth and no mouth movement.
+The fox slowly turns its head back toward the distant child once. Its ribbon
+moves and snow drifts gently. Keep anatomy and the simple tail stable.
+No human-to-fox morph, no tail growth, no extra animals or talking mouth.
 ```
-**후반 애니메이션:** 5컷의 9개 그림자 모티프를 이번에도 같은 구조로 재사용. 여우가 돌아보는 시점을 마지막 문장 `여우였다`와 맞춘다. 27.1~28초는 눈발만 움직이며 종료. 첫 구슬/마지막 리본의 비취색을 같은 색으로 유지.
+**편집·음향:** 24.3~26.5초 돌아봄과 마지막 문장. 9개의 먹 그림자 경로는 고정, 27.2초 전 낭독을 마치고 눈발 여운. 울음 연기 대신 따뜻하고 담담한 narrator.
 
-## 전환 6개
+## 공용 전환
 
-| 경계 | 효과 / 길이 | 구체 구현 |
+| 경계 | 종류 / 길이 | 구현 |
 |---|---|---|
-| f120 / 4초 | MOON_WASH / 18f | 구슬 중심 (0.5W,0.5H)을 밝은 한지색으로 덮은 뒤 구슬 접사 |
-| f240 / 8초 | FOG_VEIL / 18f | 구슬 주변 은청색 안개가 우→좌, 아이가 누운 소나무로 연결 |
-| f360 / 12초 | INK_BLOOM / 18f | 소나무 먹줄기에서 번져 인물 둘의 안정된 측면 구도로 |
-| f480 / 16초 | MOON_WASH / 18f | 구슬 중심을 아이 스카프의 (0.55W,0.58H)에 맞춰 가림, 이미 놓인 구슬로 |
-| f600 / 20초 | DRY_BRUSH_WIPE / 12f | 꼬리 그림자가 뻗는 방향 좌하→우상, 빈손 여인의 뒷모습 드러냄 |
-| f720 / 24초 | FOG_VEIL / 18f | 전면 눈안개가 완전히 덮인 순간 사람 컷→이미 앉은 여우 컷, 몸 모핑 없음 |
+| f120 | MOON_WASH / 18f | 가슴 앞 구슬 (0.5W,0.5H)에서 부드럽게 가리고 접사 |
+| f240 | FOG_VEIL / 18f | 은청색 눈안개 우→좌, 소나무 아래 아이 |
+| f360 | INK_BLOOM / 18f | 나무줄기 먹에서 번져 두 인물 측면 |
+| f480 | MOON_WASH / 18f | 손 위 구슬과 스카프 위 구슬 중심 (0.55W,0.58H) 연결 |
+| f600 | DRY_BRUSH_WIPE / 12f | 꼬리 그림자 방향 좌하→우상, 빈손의 뒷모습 |
+| f720 | FOG_VEIL / 18f | 안개 전면 가림 때 사람 컷에서 이미 앉은 여우 컷으로 |
 
 ## 추가 QA
 
-구슬은 항상 1개, 아이는 1명. 인간형에 동물 귀가 갑자기 생기면 안 된다. 꼬리 수는 생성모델이 아니라 후반 9경로로 보장하고 실제 화면에서도 확인한다. 마지막 단순한 물리적 꼬리와 9개의 그림자가 의도적 은유임이 읽혀야 한다. 로컬 그림자 합성이 어색하면 수정하되 추가 Flow 과금으로 해결하지 않는다. 창작 표기를 빠뜨리지 않는다. 최종 840프레임, 실제 음성/영상 검수, 원장 확인.
+구슬 1개/아이 1명, 같은 비취 리본, 눈뜨기와 구슬 빛 소멸의 인과, 아홉 꼬리 그림자의 경로 수, 몸 변형 없는 전환, 마지막 여우 정체 확인. 03의 구슬 규칙을 실제 전승/의학 사실로 설명하지 않는다. 두 언어에서 선택과 대가가 같고 동일한 공용 마스터를 사용하는지 확인.

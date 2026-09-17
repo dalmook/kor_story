@@ -1,203 +1,184 @@
-# 05 · 매화령 — 돌아오지 못한 봄
+# 05 · 매화령 — 돌아오지 못한 봄 / The Plum Blossom Promise
 
-**헤르메스 실행 지시:** AGENTS.md, docs/MASTER_PRODUCTION.md, docs/INK_EDITING_SPEC.md를 먼저 읽고 story_id=`05_maehwa_spirit` 한 편만 제작한다. 최종 세로 28초, 독립 4초 Flow 영상 7개, 편당 최대 50크레딧. 각 이미지/Flow 블록은 공통 화풍·고정 캐릭터와 함께 사용한다.
+v2 · story_id=`05_maehwa_spirit` · 한국풍 창작 설화 / Original Korean-Inspired Tale.
 
-**구분: 한국풍 창작 설화.** 약속을 찾아온 선비와 세상을 떠난 여인의 매화나무 아래 재회는 새로 만든 이야기다. 실제 특정 사찰·지역에 전하는 전설처럼 설명하지 않는다. 첫 컷 작은 분류 표기와 영상 설명에 `한국풍 창작 설화`를 넣는다.
+공통 v2 문서 4개를 읽는다. 공용 Flow 7×4초 원본으로 28초 KO/EN 두 편, 두 언어 합산 Flow 최대 50/예상 49크레딧. 등장인물 대사·약속의 인용 연기·속삭임·립싱크 없음. narration/05_maehwa_spirit.ko.txt와 .en.txt를 각각 한 화자의 연속 음성으로 읽는다.
 
-## 감독 방향
+## 스토리 재설계
 
-눈 속의 붉은 매화 → 약속을 찾아온 선비 → 기다리던 여인 → 손을 뻗음 → 꽃잎뿐 → 나무 아래 묘표 → 봄의 귀환. 6컷의 묘표가 여인의 정체를 알려주는 반전이다. 공포 점프스케어 대신 잠시 멈춘 음성과 빈자리를 쓴다.
+막연한 재회/꽃잎/봄의 풍경 대신 **첫 컷의 단서를 끝에서 이해하는 이야기**로 바꿨다. 발자국 없음 → 오랜 귀환 → 헤어질 때 그대로인 여인 → 지키지 못한 봄의 약속 → 닿지 않는 손 → 오래된 무덤 → 봄이 아니라 사람이 늦었다는 결말.
 
-색: 한지/먹/아주 옅은 청람 눈그늘, **붉은 매화와 여인의 매듭만** 절제된 진사색. 다른 색으로 화면을 꾸미지 않는다. 벚꽃/복숭아꽃의 화려한 분홍 숲으로 바꾸지 않는다. 매화는 오래된 굽은 가지에 붙은 작고 다섯 장인 꽃잎 형태를 미술적 기준으로 고정한다.
+여인 본인은 한마디도 하지 않는다. 선비의 약속도 내레이터가 간접 서술한다. 무덤은 6컷 전에는 화면/자막/내레이션 어디에도 공개하지 않는다. 점프스케어가 아닌 안타까운 반전이다. 기존 7컷의 마법처럼 피어나는 봄은 제외하고 약속의 대가로 끝낸다. 실재 전승/지역/사찰/고증된 사건으로 소개하지 않는다.
 
-## 캐릭터와 공간 잠금
+## 캐릭터/공간 잠금
 
 ```text
-Scholar: adult Korean man in his early thirties, slim face, black hair in a
-neat topknot, plain ivory inner robe and muted blue-gray durumagi, simple
-black headband, no ornate crown and no sword. His face remains identical.
-Woman: adult Korean woman with a calm oval face, long black hair in a low
-braid, ivory jeogori and ivory chima, one small muted-cinnabar knot at her
-waist. No translucent naked body, no horror makeup, no glowing red eyes.
-Setting: one old crooked red plum tree beside a small Korean wooden pavilion
-in a snowy mountain grove. The main trunk bends toward screen right and
-has one fork near its middle; preserve the same tree silhouette throughout.
-A small weathered stone memorial stands near the roots, without legible writing.
+Scholar: adult Korean man, slim face, neat black topknot with a simple dark
+headband, ivory inner robe and blue-gray durumagi. Woman: adult Korean woman,
+calm oval face, low black braid, opaque ivory jeogori and chima, one small
+muted-cinnabar knot at the waist. Same faces and clothes in every shot.
+One old red-plum tree bending toward screen right with one central fork,
+one small Korean wooden pavilion, ivory snow and diluted blue-gray mist.
+No modern objects, weapons, horror makeup or western fantasy costume.
 ```
 
-## 연속 내레이션
+한지·먹·옅은 청람, 붉은 매화/매듭만 절제된 진사색. 작고 다섯 장인 붉은 꽃 형태를 미술 규칙으로 고정. 벚꽃 숲/새 가지 폭발/가짜 한자를 넣지 않는다. 각 컷 이미지/모션에 공통 화풍·참조·NO_SPEECH 결합.
 
-> 눈 속에서, 붉은 매화가 피었다.
-> 선비는 오래된 약속을 찾아왔다.
-> 나무 아래, 기다리던 여인이 있었다.
-> 봄이 오면, 돌아온다 하셨지요.
-> 손을 뻗자, 꽃잎만 흩어졌다.
-> 나무 아래엔, 그녀의 이름이 잠들어 있었다.
-> 그가 울자, 겨울 숲에 봄이 번졌다.
+## 컷 01 · 0~4초 · f0~119 · 첫 번째 단서
 
-4컷은 여인의 말이지만 **같은 내레이터가 인용하듯** 읽는다. 다른 음색의 TTS를 조각내지 않는다. 6컷의 의미가 충분히 들리도록 실제 길이를 보고 조정한다. 죽음을 공포 광고처럼 읽지 않는다.
-
-## 컷 01 · 0~4초 · [0,120) · 겨울의 붉은 점
-
-**화면:** 눈 쌓인 검은 매화 가지 접사. 꽃은 이미 반쯤 열려 있고 시작부터 작은 움직임. 빈 설산을 오래 보여주지 않는다. 강조어 `붉은 매화`.
+**KO:** 그녀의 발밑엔, 발자국이 하나도 없었다.
+**EN:** There were no footprints beneath her feet.
 
 **이미지 프롬프트**
 ```text
-Macro view of a crooked black plum-tree twig carrying a small red plum
-blossom already half open beneath a little snow. Five simple cinnabar petals,
-a delicate dark center, dry-brushed branch and soft ivory hanji background.
-A pale mountain-pavilion silhouette is barely visible far behind. Minimal,
-poetic, crisp flower shape, no cherry-blossom clusters and no calligraphy.
+Low close-up of the woman's opaque ivory skirt hem and simple white shoes
+standing on smooth snow beneath a red-plum twig. The surrounding snow has
+no approaching footprints at all. One red petal lies nearby. Her face is
+out of frame. Delicate paper grain, diluted blue-gray shadows, no floating
+body, no grave or written text.
 ```
 **Flow 모션 프롬프트**
 ```text
-The already half-open plum blossom gently opens a little further in one
-small motion. A tiny piece of snow slips from the twig. Keep the petal count,
-branch shape and ink texture stable. Locked macro camera, no rapid flowering
-of the whole tree and no new branches appearing.
+Her ivory skirt hem sways softly while both shoes stay perfectly still.
+The red petal moves a short distance over untouched snow. Locked low camera.
+Do not add footsteps, walking, floating shoes or new objects.
 ```
-**타이밍/음향:** 0.2~2초 작게 열림 → 2~3.6초 눈 조각. 첫 음은 아주 작은 맑은 현음, 겨울 바람은 낮게. 붉은 꽃을 네온으로 발광시키지 않는다.
+**편집·음향:** 0.2초부터 소매가 아닌 치맛단/꽃잎 움직임. 발자국 없는 눈을 2초 이상 읽히게 한다. 발소리를 넣지 않아 단서를 지킴. 유령 속삭임/여성 대사/공포음 없음.
 
-## 컷 02 · 4~8초 · [120,240) · 돌아온 선비
+## 컷 02 · 4~8초 · f120~239 · 돌아온 사람
 
-**화면:** 정자 쪽 좁은 길에서 선비가 이미 나무를 바라보고 멈춰 있다. 나무가 같은 방향으로 굽었는지 확인. 너무 긴 걷기·카메라 비행 없음.
+**KO:** 몇 해 만에 돌아온 선비는 그걸 보지 못했다.
+**EN:** Returning after years away, the scholar never noticed.
 
 **이미지 프롬프트**
 ```text
-The approved scholar stands on a narrow snowy path, three-quarter back view,
-facing the same crooked plum tree and a small wooden Korean pavilion. His
-blue-gray outer robe is clear against the ivory snow. One old cloth bundle
-rests at his side. The tree bends right with the same fork, layered ink mountains.
+The scholar stands on a snowy path facing the same crooked plum tree and
+pavilion. Three-quarter back view, blue-gray outer robe, a trail of his own
+single set of footprints behind him. He looks ahead rather than down.
+The woman and any memorial are outside this frame, sparse red blossoms.
 ```
 **Flow 모션 프롬프트**
 ```text
-The scholar slowly raises his head toward the plum tree while remaining in
-place. The hem of his blue-gray outer robe moves in a gentle wind and a few
-snowflakes drift by. Preserve his silhouette and the tree structure. No long
-walking sequence, no camera orbit and no new buildings.
+He lifts his head slightly toward the tree while staying in place. His robe
+hem moves in the wind and a little snow drifts past. Keep his existing
+footprint trail unchanged. No long walking sequence or camera orbit.
 ```
-**타이밍/음향:** 4.4~6.2초 시선 → 6.2~7.7초 도포 움직임. 도착을 나타내는 마지막 발자국 소리 한 번은 화면 동작에 맞을 때만 사용. 걷지 않으면 눈밟기 SFX도 넣지 않는다.
+**편집·음향:** 4.4~6.4초 나무로 향하는 시선. 선비 쪽에만 발자국이 있어 첫 단서와 대비. 걷지 않는 컷에 발자국 SFX를 임의로 넣지 않는다. 기존 v1의 단순 매화 접사를 첫 컷으로 되돌리지 않는다.
 
-## 컷 03 · 8~12초 · [240,360) · 기다리던 여인
+## 컷 03 · 8~12초 · f240~359 · 두 번째 단서
 
-**화면:** 여인이 이미 나무 아래 서 있다. 갑자기 공중에서 뼈/몸이 생기는 변신 금지. 붉은 허리 매듭과 꽃의 색이 같다. 선비는 화면 가장자리의 뒷모습 일부.
+**KO:** 매화 아래, 헤어지던 모습 그대로인 여인이 있었다.
+**EN:** She waited beneath the plum tree, unchanged.
 
 **이미지 프롬프트**
 ```text
-The approved fully clothed woman already stands beneath the same crooked red
-plum tree, medium-wide view. Her ivory hanbok almost blends with the paper,
-but her dark braid and single muted-cinnabar waist knot are readable. A small
-edge of the scholar's blue-gray sleeve enters the far left. Quiet mist and
-sparse red flowers; the stone memorial is not visible yet.
+The approved woman already stands under the same red-plum tree, medium view.
+Her ivory hanbok, dark low braid and single cinnabar waist knot are clear.
+She looks toward the scholar off-screen left, a quiet composed expression.
+Sparse flowers and light mist, no memorial or grave visible yet.
 ```
 **Flow 모션 프롬프트**
 ```text
-The woman slowly turns her face a few degrees toward the scholar at screen
-left. Her braid end and red waist knot move gently in the same breeze.
-Keep her body opaque and stable. A few existing blossoms tremble on the
-branch. No apparition growth, no dissolving and no new people.
+She turns her face a few degrees toward screen left. Her braid end and
+waist knot move subtly in the breeze, while her closed mouth stays still.
+A blossom trembles above. No apparition formation, aging or disappearance.
 ```
-**타이밍/음향:** 8.2~10초 얼굴 방향 변화 → 10~11.7초 매듭. 음악 한 음을 부드럽게 얹되 정체를 벌써 공포음으로 누설하지 않는다.
+**편집·음향:** 8.3~10.2초 작은 고개 돌림. 처음부터 얼굴은 온전하게 보이고 여인이 웃으며 말을 하는 연기 금지. 따뜻한 현음 1개로 만남을 살리되 반전은 아직 드러내지 않는다.
 
-## 컷 04 · 12~16초 · [360,480) · 오래된 약속
+## 컷 04 · 12~16초 · f360~479 · 늦어진 약속
 
-**화면:** 선비 왼쪽/여인 오른쪽의 안정된 측면 2인. 두 사람의 손은 아직 닿지 않음. 4컷에서 말하는 입 모양을 생성하지 않는다.
+**KO:** 선비는 봄에 돌아오기로 한 약속을 떠올렸다.
+**EN:** He remembered his promise to return that spring.
 
 **이미지 프롬프트**
 ```text
-Side-on two-person composition beneath the same plum tree: the scholar on
-screen left, the ivory-clad woman on screen right. They face each other at
-arm's length with a clear empty gap between them. Her cinnabar waist knot
-matches the sparse flowers above. Stable hands lowered, no embrace, gentle
-ink mist, reserved lower-middle area for captions.
+Stable side view beneath the same tree, scholar on the left and woman on
+the right at arm's length. Clear empty space between their lowered hands.
+The red waist knot and red blossoms form a visual rhyme. Both mouths closed,
+no embrace, no grave in view, quiet ivory mist behind the woman.
 ```
 **Flow 모션 프롬프트**
 ```text
-The woman gives one very slight nod toward the scholar and the scholar
-quietly lifts his gaze to meet hers. Their hands remain lowered and apart.
-A few petals drift slowly through the empty gap. Keep both faces stable;
-no lip sync, no touching, no hug and no costume changes.
+The scholar lowers his gaze briefly toward her red knot, then looks back
+at her face. The woman remains still as one petal drifts through the gap.
+Keep their hands apart and faces stable. No nodding as if speaking, no
+lip sync, hugging or direct dialogue.
 ```
-**타이밍/음향:** 12.5~14초 작은 끄덕임 → 14~15.7초 꽃잎 사이 시선. 인용 문장 `돌아온다 하셨지요`가 묻히지 않도록 BGM 낮춤. 키스·멜로 OST 과장 없음.
+**편집·음향:** 12.4~14.5초 시선만으로 회상. 과거 인물 컷을 추가하지 않음. `봄에 돌아오기로 / promise to return`는 간접 내레이션이며 여인 또는 선비 목소리로 바꾸지 않는다.
 
-## 컷 05 · 16~20초 · [480,600) · 닿지 않는 손
+## 컷 05 · 16~20초 · f480~599 · 닿지 않는 손
 
-**화면:** 앞쪽 선비 소매와 이미 뻗은 손, 뒤쪽 여인의 옆모습. 손끝끼리 교차하지 않는다. Flow에는 작은 소매/꽃잎 움직임만, 사라짐은 로컬 편집.
+**KO:** 손을 뻗자, 여인은 붉은 꽃잎으로 흩어졌다.
+**EN:** He reached for her. She scattered into red petals.
 
 **이미지 프롬프트**
 ```text
-Close side view beneath the same tree. The scholar's blue-gray sleeve and
-one already-extended open hand occupy the left foreground. The fully clothed
-woman stands at a short distance on the right, her red waist knot readable,
-not touching his hand. Keep an unobstructed ivory mist background behind her
-for a later mask. A few red plum petals float between them.
+Close side view: the scholar's blue-gray sleeve and one already-raised open
+hand in the left foreground, the woman standing a short distance away on
+the right. No hands touching. Her red knot is visible. Unobstructed pale
+mist behind her for later compositing, a few red plum petals between them.
 ```
 **Flow 모션 프롬프트**
 ```text
-The scholar extends his already-raised hand only a few centimeters toward
-the woman and then stops. The woman's sleeve and a few plum petals move
-softly in the wind while her face and body remain unchanged. No contact,
-no body dissolution, no transformation into petals and no extra fingers.
+He moves his already-raised hand forward just a few centimeters and stops.
+Her sleeve and a few petals shift gently while her body remains stable.
+No touching, generated body dissolution, extra fingers or facial morphing.
 ```
-**로컬 애니메이션:** 실제 영상 17초 전후부터 꽃잎을 좌하→우상으로 12~24개 이동. 품질 좋은 인물 마스크와 무료로 확보한 깨끗한 배경이 있으면 17.4~19.4초 사이 꽃잎 뒤에서 여인 opacity를 낮춘다. 얼굴이 깨지거나 배경이 지워지면 이 방식을 쓰지 않는다. 대안은 큰 꽃잎+한지색 안개가 여인을 완전히 가리는 동안 6컷의 빈 나무뿌리로 넘어가는 것으로, 생체 모핑 없이 `꽃잎만 남음`을 전달한다. 대안도 7컷/28초 유지.
+**편집·음향:** 16.5~17.7초 손이 닿지 않음. 17.5초부터 좌하→우상 꽃잎 12~24개. 인물 마스크와 무료 로컬 clean plate가 확보되면 꽃잎 뒤에서 18~19.5초 opacity를 낮춰 사라짐을 은유. 마스크가 불량하면 몸을 억지로 지우지 말고 큰 꽃잎/한지 안개가 여인을 덮은 뒤 다음 컷의 빈 뿌리로 이어준다. 두 경우 모두 기존 Flow 영상 위 후반 합성, 추가 유료 배경 생성 없음. 낮은 바람 1회, 비명/파열음 없음.
 
-**음향:** 손을 뻗는 순간 바람이 조금 강해졌다가 잦아듦. 마법 폭발, 유리 파열음 없음. 내레이션 `꽃잎만` 강조.
+## 컷 06 · 20~24초 · f600~719 · 이름 대신 보이는 것
 
-## 컷 06 · 20~24초 · [600,720) · 나무 아래 이름
-
-**화면:** 같은 나무뿌리 옆 작은 낡은 묘표, 눈과 붉은 꽃잎 한 장. 묘표에 가짜 한자를 생성하지 않는다. 손글씨를 넣어야 이야기가 이해되는 구조로 만들지 않는다.
+**KO:** 나무 아래 드러난 건, 그녀의 오래된 무덤이었다.
+**EN:** Beneath the tree stood her weathered grave.
 
 **이미지 프롬프트**
 ```text
-Low close-up at the roots of the same crooked plum tree. A small weathered
-stone memorial rests partly in snow, its surface worn and blank without
-legible writing. One red plum petal lies on top and a trace of the woman's
-cinnabar ribbon color appears only as a fallen small cloth knot beside it.
-No human remains, no skulls, no horror symbols, quiet ivory mist.
+At the roots of the same plum tree, a small old grass-covered burial mound
+partly under snow and a worn plain stone marker are revealed. A weathered
+cinnabar cloth knot rests beside the marker, matching the woman's knot.
+One red petal on the stone. No readable inscription, bones, skulls or person.
 ```
 **Flow 모션 프롬프트**
 ```text
-A gentle breeze moves the single red petal a short distance across the top
-of the stone. Fine snow slips softly along its edge. Keep the stone surface
-blank and the tree roots fixed. Locked camera, no letters appearing,
-no ghost emerging and no scene change.
+A light breeze slides the red petal a short distance across the stone.
+A few grains of snow slip from the marker edge. Keep mound, roots and blank
+stone surface fixed. Locked camera, no letters or ghost appearing.
 ```
-**타이밍/음향:** 20~21.5초 묘표의 존재를 먼저 읽게 함 → 21.5~23.7초 꽃잎. `그녀의 이름이 잠들어 있었다`는 목소리로 설명한다. 반전 직전 0.2초 정도 음악만 줄이고 과도한 침묵으로 대본을 잘라내지 않는다.
+**편집·음향:** 전환이 걷히는 20.3초 이후 무덤을 확인하도록 한다. `무덤 / grave`를 이 컷 이전에 말하거나 자막으로 먼저 보여주지 않는다. 6컷의 문장을 20초에 통째로 띄우지 말고 실제 음성 의미 단위로 나눈다. 반전 부근 BGM만 약 0.2초 낮춤, 가짜 한자/이름 생성 없음.
 
-## 컷 07 · 24~28초 · [720,840) · 늦게 온 봄
+## 컷 07 · 24~28초 · f720~839 · 늦은 귀환
 
-**화면:** 선비는 나무 아래 앉은 작은 뒷모습. 나무엔 이미 붉은 꽃 몇 송이가 더 있고 겨울 숲의 안개가 걷힘. 나무 전체를 다른 나무로 변형시키지 않는다.
+**KO:** 봄은 몇 번이나 왔다. 늦은 건 그였다.
+**EN:** Spring had returned many times. He was too late.
 
 **이미지 프롬프트**
 ```text
-Wide Korean ink landscape of the same pavilion and crooked plum tree. The
-scholar sits quietly beneath it, small back-view silhouette in blue-gray.
-A few more red plum blossoms are already present on the existing branches,
-while pale snow remains below. Gentle warm ivory dawn opens through the
-mist. No woman present, no writing, no new buildings or crowded flowers.
+Wide view of the same crooked plum tree and pavilion in ivory snow. The
+scholar kneels alone near the tree, small blue-gray back-view silhouette.
+Sparse existing red blossoms on the branches; only his own footprint trail
+crosses the snow. An empty space remains where the woman stood. Pale dawn,
+no woman returning, no fresh tree growth or written epilogue.
 ```
 **Flow 모션 프롬프트**
 ```text
-A soft breeze moves the existing blossoms and the scholar's robe hem while
-thin mist slowly clears around the tree. The seated scholar lowers his head
-slightly. Preserve every main branch and the pavilion shape. No time-lapse
-tree growth, no massive blooming burst and no return of the woman.
+The scholar lowers his head slightly and becomes still. A few existing
+blossoms sway, and one petal drifts toward his footprint trail. Mist moves
+softly behind the pavilion. Preserve branches and building; no rapid bloom,
+no season morph and no return of the woman.
 ```
-**로컬 애니메이션:** 24.5~26.4초 기존 가지 위치에만 작은 붉은 붓점/꽃 레이어 3~5개를 낮은 opacity로 드러내 봄을 은유. 새 가지를 그리거나 숲을 통째로 분홍색으로 칠하지 않는다. 26.5~28초 꽃잎 하나가 천천히 흐르며 여운. 실제 눈물 접사가 없더라도 고개/목소리로 슬픔을 전달한다.
+**편집·음향:** 24.4~26.3초 고개, 마지막 꽃잎과 홀로 남은 발자국으로 첫 컷 회수. 눈물 클로즈업/새 인물/마법의 봄을 덧붙이지 않음. 27.2초 전 마지막 말이 끝나고 여운. 말하는 입이나 흐느낌 연기 없음.
 
-**음향:** 마지막 문장 뒤 대금 같은 한 숨과 작은 현 잔향 방향. 적법한 실제 음원이 없으면 불명확한 OST 대신 단순한 직접 제작 앰비언스 사용.
+## 공용 전환
 
-## 6개 전환
-
-| 경계 | 효과 / 길이 | 구체 구현 |
+| 경계 | 종류 / 길이 | 구현 |
 |---|---|---|
-| f120 / 4초 | PETAL_VEIL / 18f | 첫 꽃의 붉은 꽃잎에서 시작, 우하→좌상 가림 뒤 선비의 길 |
-| f240 / 8초 | FOG_VEIL / 18f | 정자의 안개가 좌→우로 덮이며 이미 서 있는 여인 등장 |
-| f360 / 12초 | CLOTH_WIPE / 16f | 여인의 흰 소매를 닮은 곡선 아래→위, 안정된 2인 측면 구도로 |
-| f480 / 16초 | PETAL_VEIL / 18f | 두 사람 사이 꽃잎이 좌하→우상, 손과 소매 접사로 연결 |
-| f600 / 20초 | PETAL_VEIL / 18f | 5컷 사라짐을 마무리하는 큰 꽃잎+한지색 안개가 전면 가림, 빈 뿌리/묘표 |
-| f720 / 24초 | MOON_WASH / 18f | 묘표 위 붉은 점 주변 (0.5W,0.6H)을 따뜻한 한지색으로 씻어 넓은 봄 풍경 |
+| f120 | PETAL_VEIL / 18f | 눈 위 꽃잎 우하→좌상, 선비의 발자국 길 드러냄 |
+| f240 | FOG_VEIL / 18f | 정자 안개 좌→우, 이미 서 있는 여인 |
+| f360 | CLOTH_WIPE / 16f | 여인의 흰 소매 같은 곡선 아래→위, 두 인물 측면 |
+| f480 | PETAL_VEIL / 18f | 두 사람 사이 꽃잎 좌하→우상, 닿지 않는 손 접사 |
+| f600 | PETAL_VEIL / 18f | 큰 꽃잎+한지 안개로 사라짐을 마무리한 후 무덤 공개 |
+| f720 | MOON_WASH / 18f | 돌 위 붉은 점 (0.5W,0.6H)에서 한지색으로 씻어 빈 풍경 |
 
 ## 추가 QA
 
-매화나무의 주줄기와 정자는 전 컷 동일. 여인의 매듭/꽃잎 진사색 일치. 5컷에 사람이 녹는 신체 공포나 얼굴 찌그러짐이 없어야 한다. 6컷 묘표에 임의 글자/가짜 한자 없음. 7컷에 여인이 다시 나타나면 안 됨. 붉은 색이 화면 전체를 점유하지 않아야 한다. 6컷 반전이 무음 시청에서도 묘표+자막으로 이해되는지 확인. 창작 표기, 7개 원본, 실제 비용원장, 840프레임과 시청/청취 상태 확인.
+첫 컷엔 여인의 발자국 없음, 선비의 발자국은 2/7컷에만 명확. 나무/정자/옷/붉은 매듭이 같고 1~5컷에 무덤이 새지 않아야 한다. 5컷 신체 공포/찌그러짐 없음. 6컷은 단순 장식돌이 아니라 오래된 무덤으로 읽히는 봉분+묘표 구도. 자막/음성이 반전을 먼저 폭로하지 않음. 7컷 여인은 돌아오지 않는다. 창작 분류 표기, 공용 master 해시, 두 언어별 840프레임/음성/자막 검수 필수.

@@ -1,133 +1,93 @@
-# 수묵담채 화풍 · 애니메이션 · 전환 구현 규격
+# 수묵담채 공용 시각 마스터 / v2 편집 규격
 
-이 문서의 수치와 연출은 이 프로젝트의 디자인 선택이다. 특정 모델이 수치를 정확히 따를 것이라는 보장이 아니다. 실제 영상과 설치된 편집기 버전을 확인한다.
+이 수치들은 프로젝트의 디자인 목표다. Flow가 프롬프트의 시간을 정확히 지키거나 특정 동작을 보장한다는 뜻이 아니다. 실제 원본과 편집기 버전을 확인한다. 한국어/영어판의 영상·카메라·전환·색·사물 애니메이션은 동일하다.
 
-## 1. 공통 이미지 화풍 블록 — 모든 컷 앞에 추가
+## 1. 공통 이미지 블록
 
 ```text
-Vertical 9:16 composition. A dreamlike Korean ink-and-light-color painting
-coming to life on warm ivory hanji paper. Hand-brushed black and diluted
-indigo ink, visible dry-brush edges, soft wet-ink bleeding, delicate paper
-fibers, layered mist and generous intentional negative space. Restrained
-mineral-pigment accent colors, poetic moonlight, elegant readable silhouettes.
-Joseon-inspired Korean hanbok and Korean rural architectural details where
-applicable; this is an original stylized world, not a historical reconstruction.
-Flat painterly surfaces with subtle layered depth, never glossy 3D or live action.
-Use the approved character reference consistently. Keep the key action in the
-central safe area. Leave a quiet lower-middle area for separately added captions.
-No text, calligraphy, seals, logos, UI elements, frames or invented writing.
+Vertical 9:16. Dreamlike Korean ink-and-light-color painting on warm ivory
+hanji paper, hand-brushed black and diluted indigo ink, dry-brush edges,
+soft wet-ink bleeding, delicate stable paper fibers and layered mist.
+Restrained mineral pigments, generous negative space and readable silhouettes.
+Joseon-inspired Korean hanbok and rural architecture where applicable;
+an original stylized world, not a historical reconstruction. Flat painterly
+surfaces with subtle depth, never glossy 3D or photoreal live action.
+Use approved character references consistently. Keep the action central
+and reserve quiet lower-middle space for captions added later.
+No text, calligraphy, seals, lettering, subtitles, logos or UI in the image.
 ```
 
-## 2. 공통 Flow 블록 — 각 컷 모션 뒤에 추가
+## 2. 공통 Flow 블록
 
 ```text
 Animate the supplied start image as one continuous four-second shot.
-Preserve the exact composition, character identity, costume, brushwork and
-hanji paper texture. One restrained main action; secondary mist or fabric
-motion stays subtle. The subject must move, not only the camera.
-Keep the paper grain stable rather than boiling randomly from frame to frame.
-No scene cuts, no new characters, no morphing into another scene, no dialogue,
-no lip sync, no generated text. Do not add transition effects; those are edited later.
+Preserve composition, identity, costume, brushwork and hanji texture.
+One restrained main action, subtle secondary wind or mist. The subject
+must move, not only the camera. Keep paper grain stable, not boiling.
+No internal scene cuts, new characters, scene morphs or generated transitions.
+Silent visual storytelling: no dialogue, no spoken words, no whispering,
+chanting, singing, voiceover, lip sync or speech-like mouth movement.
+No captions, subtitles or language-specific text. Narration is added later.
 ```
 
-## 3. 제외 사항
+이미지/Flow에 narration 텍스트를 첨부하지 않는다. 실제 별도 음소거 옵션이 없으면 만들어내지 말고, 생성 원본 보존 후 편집 입력에서 원본 오디오 트랙을 제거한다. 입은 말하는 듯 움직이지 않아야 한다. 04의 한 번 깨무는 동작만 허용하며 반복 수다로 해석되는 모션은 금지.
 
-실사 얼굴, 포토리얼 3D, 플라스틱 피부, 네온 사이버펑크, 과한 셀 애니메이션 윤곽선, 폭발/총격/속도선/번쩍임, 무작위 손떨림, 흐릿한 얼굴, 손가락 증가, 의상 교체, 외계 배경은 제외한다. 작품 속 복식은 한복과 한국풍 시골 공간으로 통일하며 기모노·도리이·중국 황실 궁궐을 섞지 않는다. 이는 미술 방향의 선택이지 동아시아 문화 전체가 동일하다는 설명이 아니다.
+## 3. 화풍/동작 제한
 
-브랜드 캐릭터·현대 영화 디자인·작가의 특정 캐릭터를 복제하지 않는다. 서비스가 부착한 워터마크나 출처 표시는 삭제/크롭 대상으로 삼지 않는다.
+한국풍 복식과 시골 공간, 먹+한지에 이야기 강조색 소량만 쓴다. 플라스틱 피부, 실사 얼굴, 네온, 사이버펑크, 과도한 셀 외곽선, 레이저, 번쩍임, 기모노/도리이/중국 황실 궁궐을 섞지 않는다. 이는 본 작품의 미술 방향이다. 현대 캐릭터/영화 디자인을 복제하지 않는다. 서비스 표시/워터마크를 제거하지 않는다.
 
-## 4. 인물·화면·움직임 잠금
+캐릭터 시트로 얼굴/머리/옷/소품/키 비율/이동 방향을 고정한다. 고개 5~10도, 손 몇 cm, 옷자락/구슬/눈발 등 작은 행동을 선호한다. 카메라 이동은 약 화면폭 2~5%, 줌 약 1.00→1.03을 의도로 전달하되 실제로 이미 움직이는 원본에 중복 줌을 얹지 않는다. 환경만 움직여도 정물 컷은 가능하나 인물 중심 컷에서 카메라 줌만 있는 결과는 불합격.
 
-기본 캐릭터 시트에서 얼굴, 머리, 옷 색, 고름, 소품, 키 비율, 화면상의 진행 방향을 고정한다. 컷마다 모든 인물을 다시 발명하지 않는다. 몸통을 크게 돌리거나 손을 교차하는 고난도 동작보다 고개 5~10도, 손의 짧은 이동, 소매·눈발·물결을 사용한다.
+## 4. 28초를 보존하는 타임라인
 
-실제 Flow 주동작 1개 + 환경 변화 1개 + 편집상 작은 시선 유도 1개가 기본이다. 4초 내내 같은 그림의 줌만 움직이는 결과는 거절한다. 몽환적 분위기를 살리기 위해 모든 컷에 빠른 전환이나 0.5초 간격 번쩍임을 강제하지 않는다. 긴장/완화는 인물 동작과 4초 경계의 차이로 만든다.
+30fps, 7컷 × 120프레임 = 840프레임. 컷 구간은 [0,120), [120,240), [240,360), [360,480), [480,600), [600,720), [720,840). 경계 f120/240/360/480/600/720.
 
-일반 카메라 지침: 이동량 화면 폭 2~5%, scale 1.00→1.03 정도를 의도로 전달한다. 실제 모델 출력에 추가 줌을 덧씌워 움직임을 중복하지 않는다. 피사체가 프레임 밖으로 나가면 자막 위치와 함께 수정한다.
+**고정 컷 아래 hard cut + 경계 위 가림막 오버레이** 방식. 경계 b, 효과 길이 w가 짝수일 때 [b-w/2,b+w/2)에서 효과를 재생한다. b에서 완전히 덮고 다음 컷을 드러낸다. 첫 18f 예시는 [111,129). MATCH_CUT은 의도적으로 가림막 없이 즉시 전환한다.
 
-## 5. 28초를 보존하는 시간 설계
+전환을 겹쳐 총 길이가 짧아지는 TransitionSeries.Transition 또는 무계획 xfade를 사용하지 않는다. 부족분을 정지 프레임/검은 화면으로 메우지 않는다. 일반 Sequence와 전면 오버레이 또는 동일 원리의 합성을 사용한다. 설치 버전의 API 지원을 확인하고 메서드를 추측하지 않는다.
 
-| 컷 | 구간 | 전역 프레임, 양끝 표기 중 끝은 미포함 |
-|---|---|---|
-| 01 | 0~4초 | [0,120) |
-| 02 | 4~8초 | [120,240) |
-| 03 | 8~12초 | [240,360) |
-| 04 | 12~16초 | [360,480) |
-| 05 | 16~20초 | [480,600) |
-| 06 | 20~24초 | [600,720) |
-| 07 | 24~28초 | [720,840) |
+SVG/Canvas 효과의 난수는 story_id+boundary_frame으로 고정 시드. 매 프레임 Math.random, 실시간 타이머, 무한 CSS animation에 의존하지 않는다. **공용 마스터를 한 번 렌더하여 재사용**하므로 KO/EN에서 입자 배치가 달라지지 않는다. 제목/자막/언어별 라벨은 공용 마스터에 굽지 않는다.
 
-6개 경계는 120/240/360/480/600/720이다. 각 컷은 120프레임을 온전히 재생한다. 원본 4초에 부족한 핸들이 있다고 가정하지 않는다. 6개의 디졸브를 겹쳐 28초에서 빼거나, 그 부족분을 검은 화면과 장시간 정지 프레임으로 메우지 않는다.
+## 5. 전환 사전
 
-**기본 방식: hard cut 아래에 가림막 오버레이.** 경계 b, 짝수 길이 w라면 효과 창은 [b-w/2, b+w/2). 컷 전환 b에서 가림막이 전체 화면을 완전히 덮도록 하고, 전반에는 덮고 후반에는 걷는다. 18프레임 전환의 첫 경계 예시는 [111,129), 최대 가림 b=120이다. 단순 파티클 몇 개만으로 컷 경계가 감춰졌다고 보지 않는다.
+각 이야기의 경계 표가 실제 종류/길이/방향/anchor를 지정한다. 좌표는 화면 W/H의 비율이다. 작은 입자만 흩뿌려 화면이 가려졌다고 보지 않는다. 경계 b에 완전 가림을 만들되 한 프레임 백색 플래시는 금지한다.
 
-일반 Sequence를 고정 배치하고 오버레이를 AbsoluteFill로 얹으면 구현할 수 있다. 설치된 Remotion에 적절한 Overlay API가 있으면 사용 가능하나 먼저 버전 지원을 확인한다. TransitionSeries.Transition처럼 인접 시퀀스를 겹치는 기능이나 FFmpeg xfade를 무작정 넣지 않는다. 이번 규격은 합성 방식으로 구현한다.
+| ID | 기본 길이 | 구현 |
+|---|---:|---|
+| INK_BLOOM | 18f | 지정 anchor에서 불규칙 젖은 먹 마스크 확대. 진행 0~0.45 덮기, 0.45~0.55 전면 가림, 0.55~1 걷기. 외곽 feather 20~40px/1080폭, 얼굴 대신 그림자/나무에서 시작 |
+| DRY_BRUSH_WIPE | 12f | 넓은 붓 획을 방향대로 2f 시차 이동. 갈라진 붓털 외곽, 중앙 2f는 한지 밑칠+먹으로 빈틈 없이 가림. 글자 쓰기 아님 |
+| FOG_VEIL | 18f | 불투명 한지색 안개 3겹, 다른 속도. 가장자리만 feather, 경계에서 중간층 전면 가림. 전후 바람 방향 일치 |
+| CLOTH_WIPE | 16f | 원래 옷색의 넓은 2D 천 곡선을 전경으로 이동. path만 변형, 신체를 늘이지 않음. 중앙에서 천/한지 밑칠이 전면 가림 |
+| WATER_RIPPLE | 16f | anchor에서 동심원 2개. 작은 변위만, 얼굴 왜곡 금지. 한지색 원형 가림막은 파문과 분리하여 경계를 덮음 |
+| PETAL_VEIL | 18f | 직접 그린 5~7종 꽃잎 12~24개를 고정 시드 이동. 큰 전경 꽃잎 2~3개와 한지 안개가 b에서 전면 가림. 불꽃/네온 금지 |
+| MOON_WASH | 18f | 달/구슬/붉은 점에서 은백 또는 한지색 마스크가 확대되어 먹을 씻음. 전면 가림 뒤 같은 위치의 다음 물체 공개. 매끄러운 밝기 변화 |
+| GOLD_DUST | 12f | 황토색 붓점 최대 20개, 짧은 호 운동. 마른 붓+한지 밑칠로 b에서 가림. 광택 3D 금화 폭포 금지 |
+| MATCH_CUT | 0f | 전후 원/로프/방향의 중심과 크기를 미리 맞춘 cut 또는 이야기의 의도적 반응 cut. 오버랩 없음, 시간 감소 없음 |
 
-효과가 복잡하면 직접 만든 SVG/Canvas 마스크를 프레임별로 렌더한다. 난수는 story_id+boundary_frame으로 고정 시드하고 재렌더할 때 입자와 붓결이 바뀌지 않게 한다. 프레임 콜백에서 Math.random(), 실시간 타이머, 무한 CSS animation에 의존하지 않는다.
+형태 매치컷은 1080폭 기준 중심 오차 약 20px 이내를 편집 목표로 잡되, 인물/서비스 표시를 잘라내 맞추지 않는다. 효과음은 전환마다 똑같은 whoosh를 반복하지 않고 필요한 곳만 종이/비단/바람을 낮게 사용한다.
 
-## 6. 전환 사전
+## 6. 특수 동작의 로컬 합성
 
-각 이야기의 경계 표가 종류/길이/방향을 지정한다. 특별한 설명이 없어도 경계에서 전체 화면 가림 조건을 지킨다. 단순 검정 페이드는 기본 효과가 아니다.
+해/달: 준비 이미지의 기존 두 원반을 작은 먹 씻김으로 강조. 사람 몸을 원반으로 바꾸는 모핑 없음.
 
-### INK_BLOOM · 젖은 먹 번짐 · 18f
+구미호: 인물 뒤 눈 위에 **정확히 9개**의 독립 붓 경로를 만들고 1~2f 위상차와 미세 흔들림만 준다. 몸에 꼬리를 생성하지 않는다. 5컷과 7컷에서 같은 모티프를 사용. 실제 끝부분이 9개로 읽히는지 확인. 구슬의 빛은 무발광 구슬 위 별도 glow 레이어를 붙였다가 10~16f에 걸쳐 줄여 소멸을 통제한다.
 
-지정 anchor에서 비대칭 번짐 마스크를 키운다. 외곽은 SVG turbulence/displacement 또는 고정 붓 텍스처로 불규칙하게 처리한다. 진행 0→0.45에서 먹이 전체를 덮고 0.45~0.55는 완전 가림, 0.55→1에서 다음 장면이 드러난다. 가장자리 feather는 1080폭에서 약 20~40px. 인물 얼굴에 작은 얼룩을 찍지 말고 창호·나무·그림자에서 시작한다. 효과음은 종이 젖는 듯한 저음성 바람 0.3~0.6초, 과장된 폭발 금지.
+도깨비: 방망이 탭 순간 기존 동전 주변에 작은 금색 붓점 레이어를 추가. 실제 집은 무너지지 않으며 먼지/도깨비 시선/소리로 오해만 전달한다. 복잡한 달리기 대신 한 걸음 후 문쪽 먹 가림.
 
-### DRY_BRUSH_WIPE · 마른 붓 쓸기 · 12f
+매화령: 실제 Flow 손/소매/꽃잎 움직임 위에 인물 마스크와 clean plate를 합성한다. 배경은 기존 이미지를 무료 로컬 편집해 확보하고 추가 유료 생성 금지. 마스크가 나쁘면 인물을 녹이지 말고 PETAL_VEIL이 몸을 완전히 가린 뒤 빈 무덤 컷으로 전환한다. 사라짐은 서사적 은유이며 신체 공포 모핑을 사용하지 않는다.
 
-지정 방향의 넓은 붓 획 여러 개를 2프레임씩 시차로 이동한다. 끝부분은 갈라진 붓털 질감, 중앙 2프레임은 빈틈 없이 가린다. 검은 붓과 한지색 밑칠을 결합해 다음 컷을 드러낸다. 종이 넘김 1회 또는 짧은 북 타격과 맞춘다. 붓으로 글자를 쓰지 않는다.
+## 7. 두 언어 자막/타이틀
 
-### FOG_VEIL · 운무 가림 · 18f
+공용 마스터는 글자 없음. KO에는 한국어만, EN에는 영어만 후반으로 붙인다. 각 언어 실제 오디오에서 별도 정렬해 타임코드를 만들고 의미 단위 1~2줄을 유지한다. 자막을 컷 시작마다 통문장으로 공개해 반전을 누설하지 않는다. 언어별 지시는 BILINGUAL_NARRATION.md를 따른다.
 
-한지색 불투명 안개 세 겹을 서로 다른 속도로 이동한다. 가장자리만 feather, 경계에서는 중간층이 전체 화면을 가린다. 전환 앞뒤의 안개가 서로 같은 바람 방향을 가진다. 4초 동안 계속 흐릿한 화면으로 만들지 않는다.
+1080×1920 시작점: 좌우 100px 이상 여백, 자막 x=110~970/y=1260~1490, 작은 제목/분류 x=100~850/y=200~340. 실제 게시 플랫폼 미리보기에서 가림을 확인한다. 본문 KO 약 50~58px, EN 약 48~56px에서 시작하되 실제 폰트/줄 길이로 조정, 읽기 어렵게 축소하지 않는다.
 
-### CLOTH_WIPE · 비단 가림 · 16f
+실제 사용 가능한 한글/영문 폰트를 확인한다. 한지 바탕은 먹색 글자+옅은 한지 받침, 어두운 바탕은 한지색 글자+먹 그림자. 강조는 이야기 색으로 단어 1~2개만. 진입 5~7f opacity + y8px 정도, 바운스/글자별 날아오기 금지. 별도 로고/엔딩 카드는 추가하지 않는다.
 
-원래 컷의 소매나 날개옷과 같은 색의 넓은 천 곡선을 화면 앞쪽으로 합성한다. 천은 2D path의 부드러운 변형으로 움직이고 신체를 늘이지 않는다. 중앙에서 천/한지 밑칠이 전면을 덮고 반대쪽으로 걷힌다. 한 번의 부드러운 천 마찰음. 다른 컷의 인물과 실제로 손이 이어지는 것처럼 모핑하지 않는다.
+## 8. 음향/검수
 
-### WATER_RIPPLE · 수면 번짐 · 16f
+내레이터 한 명의 목소리가 중심. 캐릭터 대사·인용 연기·노래·비명·흐느낌 연기는 제외한다. 사용 허가된 대금/해금/가야금 질감의 음악 또는 직접 만든 앰비언스만, 불명확한 OST 사용 금지. 확보한 음원이 없으면 BGM 없이도 진행 가능.
 
-수면 원점 anchor에서 동심원 두 개만 퍼뜨린다. 반사 표현은 얼굴을 뒤틀지 않을 정도의 작은 변위. 후반에 한지색 원형 마스크가 화면을 덮었다가 다음 컷으로 걷힌다. 물방울 소리 1회. 파문 자체와 전체 가림막은 분리한다.
+두 언어는 같은 BGM/SFX를 사용하되 각각의 voice에 맞춰 ducking을 조절한다. 음성 아래 BGM은 약 12~18dB 낮은 지각 수준에서 출발하여 실제로 들어본다. 최종 -16~-14 LUFS/true peak -1dBTP 이하는 목표이며 자연스러움의 보증 아님.
 
-### PETAL_VEIL · 매화 꽃잎 가림 · 18f
-
-직접 그린 5~7종의 꽃잎 벡터를 고정 시드로 12~24개 배치한다. 우하→좌상 또는 문서 지정 바람을 따른다. 가까운 큰 꽃잎 2~3개와 따뜻한 한지색 안개가 b에서 화면을 덮는다. 입자만 띄워 hard cut이 노출되지 않게 한다. 붉은 채도는 낮게, 꽃잎은 섬광이나 불꽃으로 바꾸지 않는다.
-
-### MOON_WASH · 달빛 먹 씻김 · 18f
-
-지정한 달 또는 구슬 중심에서 은백/한지색 마스크가 커져 먹 농도를 낮춘다. b에서 한지색으로 가린 뒤 다음 컷의 물체를 동일 위치에서 드러낸다. 밝기는 매끄럽게 변화시키고 한 프레임짜리 백색 플래시를 금지한다. 광선검·렌즈 플레어·네온은 사용하지 않는다.
-
-### GOLD_DUST · 황토빛 먹가루 · 12f
-
-동전이나 방망이 충격 지점에서 최대 20개의 둔한 황토색 붓점이 짧게 퍼진다. 얇은 마른 붓 가림막이 b에서 전체를 덮는다. 반짝이는 3D 금화 폭포가 아니라 먹화 속 광물 안료 느낌. 한 번의 낮은 장단과 연결한다.
-
-### MATCH_CUT · 형태 연결 · 0f
-
-전후 컷의 원/매듭/나뭇결 anchor와 크기를 이미지 준비 단계에서 맞춘다. 실제 렌더에서 중심 이동이 1080폭 기준 20px를 크게 넘으면 크롭으로 조정하되 워터마크·주인공을 자르지 않는다. 경계에서 그대로 자르는 방식이라 가림막이 필요 없고 시간도 줄지 않는다. 이야기 문서에서 MATCH_CUT은 가림막 대신 의도적인 cut으로 사용한다.
-
-## 7. 특수 애니메이션은 후반에서
-
-해/달: 준비 이미지에 이미 존재하는 두 원반을 작은 먹 씻김 마스크로 강조한다. 사람 몸이 원반으로 변하는 생체 모핑을 생성하지 않는다.
-
-구미호 꼬리: 사람의 몸은 고정한 상태에서 바닥/뒤의 그림자에 **정확히 9개의 독립 브러시 꼬리 경로**를 만든다. 각 경로에 약한 위상 차이를 주되 꼬리 개수는 고정한다. Flow가 9개를 유지할 것이라고 기대하지 않는다. 전통 구미호의 유일한 원형 디자인이라고 주장하지 않는다.
-
-여인의 사라짐: 가능한 경우 수동 경로/기존 도구로 인물 마스크를 만들고 겹쳐 있는 나뭇가지를 별도 보존한다. 꽃잎이 인물을 충분히 가리는 동안 opacity를 낮춘다. 깨끗한 배경은 기존 시작 이미지에서 무료 로컬 편집으로 확보한다. 추가 유료 배경 생성은 금지한다. 마스크 품질이 부족하면 인물을 억지로 지우지 말고 꽃잎 가림막 뒤 다음 빈 나무 컷으로 전환하는 방식으로 끝낸다. 두 방식 모두 실제 Flow 움직임 위에 합성하며 7컷 수는 유지한다.
-
-## 8. 자막과 제목
-
-첫 0.4초 안에 사건이 보이게 한다. 독립 로고/타이틀 카드를 넣지 않는다. 제목은 필요하면 첫 컷 상단 작은 오버레이로만 표시하며 28초 안에 포함한다.
-
-1080×1920 기준 안전 영역 제안: 좌우 100px 이상, 자막 블록 x=110~970, y=1260~1490. 제목/분류 표시는 x=100~850, y=200~340. 우측 플랫폼 아이콘과 하단 UI는 게시 플랫폼 미리보기에서 확인한다. 어느 서비스에서나 절대 안전하다고 가정하지 않는다.
-
-자막은 실제 사용 가능한 한글 폰트를 확인하고 본문 50~58px 정도에서 시작해 1~2줄로 제한한다. 배경 밝기에 따라 먹색 글자+옅은 한지 받침, 또는 한지색 글자+먹 그림자를 선택한다. 키워드 한두 개만 이야기 강조색으로 바꾼다. 한지 바탕에서도 흰 글자가 묻히지 않게 한다.
-
-한 음성 문장을 의미 단위로 나눠 표시한다. 나레이션이 문서의 4초 경계와 정확히 일치한다고 가정하지 않는다. 단어 타임스탬프가 없는 TTS면 사용 가능한 정렬/전사 도구 또는 직접 청취로 보정하고, 전사 문장을 원문과 대조한다. 자막 진입은 5~7프레임 opacity+Y 8px 정도, 과한 바운스·글자별 날아오기 금지.
-
-## 9. 음향 디자인
-
-한 화자 내레이션이 중심. 대금/해금/가야금의 질감을 가진 사용 허가된 음악 또는 기존 제작 음원을 사용하되 유명 OST를 복제하지 않는다. 악기명은 연출 방향이며 음원을 확보했다는 뜻이 아니다. 적법한 무료 음원이 없으면 저작권 불명 음원을 쓰지 말고 직접 만든 단순 앰비언스나 BGM 없는 버전으로 진행한다.
-
-음성 아래 BGM은 대략 12~18dB 낮은 지각 수준에서 시작하여 실제 청취로 조절한다. 전체 목표는 약 -16~-14 LUFS integrated, true peak -1dBTP 이하를 편집 목표로 삼는다. 수치가 자연스러운 목소리를 보장하지 않는다. 효과음은 중요한 사건에 1개씩, 컷마다 동일한 whoosh 반복 금지. 마지막 0.8초는 의미가 남게 여운을 둔다.
-
-## 10. 검수
-
-중간 이미지 접촉표 7장, 첫/중간/끝 프레임, 6개 전환 전후 프레임을 확인한다. 실제 영상을 정상 속도로 보고 음성도 실제로 듣는다. 특히 첫 1초 후킹, 7컷 구분, 얼굴/의상, 눈/손, 먹결 깜빡임, 꼬리 수, 자막 오탈자·가독성, 효과와 음성 충돌을 본다. AI 검수는 위험을 찾는 보조 수단이지 완전한 보증이 아니다.
+7컷 접촉표, 시작/중간/끝, 6개 경계 전후를 확인하고 정상 속도로 두 편을 실제 시청/청취한다. 형태/손/옷/먹결 깜빡임/입 움직임/반전/타이틀 언어/오탈자/잘림/음량/잔향 끊김을 검사. 원본 7개 해시와 공용 마스터 해시, 두 언어가 그 마스터를 참조하는 기록을 남긴다. 미디어가 없으면 검수 완료로 쓰지 않는다.
