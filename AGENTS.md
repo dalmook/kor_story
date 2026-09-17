@@ -27,3 +27,11 @@ KO와 EN 대본은 manifest의 TXT, 각 언어 연속음성/실제 정렬로 자
 Flow/TTS 연동 부재는 NEEDS_FLOW_INPUT/NEEDS_AUDIO_INPUT. 한 언어만 있으면 PARTIAL_LOCALIZATION, 실제 청취/시청이 없으면 HUMAN_REVIEW_REQUIRED. 두MP4·두WAV·두SRT·공용마스터·원본7개·원장·참조상태·실제검수 후에만 해당 episode 완료다. 한 파트 완료를 두 파트 시리즈 완료로 보고하지 않는다.
 
 작업ID/해시/미확정 요청을 확인하여 중복제출을 막는다. 로그인/CAPTCHA를 우회하지 않는다. 비밀정보/쿠키/대용량 미디어는 Git에 올리지 않고 서비스 표시를 제거하지 않는다. YouTube 게시/예약/후속파트 자동 실행은 하지 않는다.
+
+## 유튜브 업로드 문구 준비
+
+영상 제작 시 youtube/README.md, youtube/HERMES_HANDOFF.md와 youtube/metadata.json도 읽고 선택한 episode_id의 KO/EN 제목·설명·태그 파일을 함께 준비한다. 기존 내레이션과 스토리를 메타데이터에 맞추려고 바꾸지 않는다. 최종 영상이 바뀌었다면 공개 문구를 검토하여 수정한다.
+
+`python tools/youtube_metadata.py --check`로 문구 길이·언어·파트 연결·JSON/Markdown 일치를 확인한다. 설명의 해시태그는 이미 포함되어 있으므로 중복하지 않고, 일반 태그는 전용 입력란용으로만 내보낸다. 한국어 채널명과 두 채널 ID는 미확인이므로 추측하지 않는다. 영문 채널명은 Dalbong Korean Tales다.
+
+메타데이터 파일 준비는 게시 승인이 아니다. 업로드·예약·채널 설정 변경을 실행하지 않는다. 미공개 다음 편을 공개됐다고 쓰지 않고 실제 같은 언어·같은 채널의 영상이 확인되기 전에는 관련 동영상을 연결하지 않는다. 시청자층/AI 공개 여부는 실제 결과와 공식 기준을 검토하며 자동으로 채우지 않는다.

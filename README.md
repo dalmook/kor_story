@@ -61,3 +61,14 @@ python -m unittest discover -s tests -v
 ## 상태
 
 BRIEFS_READY_MEDIA_NOT_GENERATED. 실제 이미지·Flow 영상·TTS·최종 MP4를 생성하거나 시청/청취 검수한 상태가 아닙니다. 이 업데이트는 Flow 크레딧을 사용하지 않습니다. 게시/예약 발행/다음 파트의 자동 제작도 실행하지 않습니다.
+
+## 유튜브 업로드 문구 — 한국어·영어 16세트
+
+[youtube/README.md](youtube/README.md)에 8편의 한국어·영어 기본 제목, 대체 제목, 설명, 해시태그와 Studio 태그를 정리했습니다. [채널 소개와 공통 키워드](youtube/CHANNELS.md), [헤르메스 추가 전달문](youtube/HERMES_HANDOFF.md)도 함께 있습니다.
+
+자동화 원본은 [youtube/metadata.json](youtube/metadata.json)입니다. 헤르메스는 선택한 episode_id와 언어에 맞는 문구를 로컬 파일로 내보내고, 완성 영상과 대조한 뒤 전달합니다. 기존 스토리·원고·파트 구성은 유지합니다. 이번 추가는 문구 준비이며 YouTube 업로드·예약·채널 변경은 실행하지 않습니다.
+
+```sh
+python tools/youtube_metadata.py --check
+python -m unittest discover -s tests -p 'test_youtube_metadata.py' -v
+```

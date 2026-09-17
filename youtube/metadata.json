@@ -1,0 +1,198 @@
+{
+  "schema_version": 1,
+  "content_version": "v3-parts",
+  "source_commit": "82a1874f20c247db4f7a4402e95e0158f18f9ea6",
+  "source_manifest_git_blob_sha": "949fb3d02db2df48221e54d05bed80c1c221e85e",
+  "status": "METADATA_DRAFTS_NO_UPLOAD",
+  "upload_authorized": false,
+  "channels": {
+    "ko": {"display_name": null, "channel_id": null, "note": "한국어 채널명/ID 미확인. 브랜드명을 지어내지 않으며 설명에 넣지 않음."},
+    "en": {"display_name": "Dalbong Korean Tales", "channel_id": null, "note": "사용자가 선택한 채널명. 실제 channel_id/handle은 미확인."}
+  },
+  "episodes": [
+    {
+      "episode_id": "01_sun_and_moon_p01", "story_id": "01_sun_and_moon", "part_number": 1, "part_count": 2, "classification": "adapted",
+      "source_brief": "episodes/01_sun_and_moon_p01.md", "previous_episode": null, "next_episode": "01_sun_and_moon_p02",
+      "locales": {
+        "ko": {
+          "title": "엄마 목소리인데, 손에는 발톱이 있었다 | 해와 달 1부",
+          "alternate_title": "문밖의 엄마는 누구였을까? | 해와 달이 된 오누이 1부",
+          "description": "문밖에서 들려온 익숙한 목소리. 하지만 문틈으로 보인 손은 달랐습니다.\n정체를 알아챈 오누이는 들키지 않고 집을 빠져나갈 수 있을까요?\n\n해와 달이 된 오누이 — 문밖의 엄마 | 1부 / 총 2부 · 28초\n한국 전래설화의 일부를 쇼츠에 맞게 각색했습니다. 수묵화풍 애니메이션과 한국어 내레이션으로 전합니다.\n\n#해와달이된오누이 #한국설화 #수묵화",
+          "hashtags": ["#해와달이된오누이", "#한국설화", "#수묵화"],
+          "tags": ["해와 달이 된 오누이", "해와달이된오누이", "해님달님", "문밖의 엄마", "한국 설화", "한국 전래동화", "호랑이 이야기", "수묵화 애니메이션", "수묵담채", "설화 쇼츠", "옛날이야기", "먹빛설화"],
+          "video_language": "ko", "metadata_language": "ko", "expected_filename": "01_sun_and_moon_p01_ko.mp4"
+        },
+        "en": {
+          "title": "It Sounded Like Mother... But It Had Claws | Sun & Moon Pt. 1",
+          "alternate_title": "Who Was Really at the Door? | The Sun and the Moon, Part 1",
+          "description": "A familiar voice calls from outside. But the hand at the door has claws.\nCan the children slip away before their visitor notices?\n\nThe Sun and the Moon — The Visitor at the Door | Part 1 of 2 | 28 seconds\nA short retelling of a traditional Korean folktale. Ink-wash-style animation with English narration.\n\nDalbong Korean Tales\n\n#KoreanFolklore #SunAndMoon #InkWashAnimation",
+          "hashtags": ["#KoreanFolklore", "#SunAndMoon", "#InkWashAnimation"],
+          "tags": ["the sun and the moon", "sun and moon Korean folktale", "Korean folklore", "Korean folktales", "Korean tiger story", "the visitor at the door", "ink wash animation", "Korean storytelling", "animated short", "Dalbong Korean Tales"],
+          "video_language": "en", "metadata_language": "en", "expected_filename": "01_sun_and_moon_p01_en.mp4"
+        }
+      },
+      "editorial_review": {"status": "DRAFT_FINAL_VIDEO_REVIEW_REQUIRED", "avoid_spoilers": {"ko": ["동아줄"], "en": ["rope"]}}
+    },
+    {
+      "episode_id": "01_sun_and_moon_p02", "story_id": "01_sun_and_moon", "part_number": 2, "part_count": 2, "classification": "adapted",
+      "source_brief": "episodes/01_sun_and_moon_p02.md", "previous_episode": "01_sun_and_moon_p01", "next_episode": null,
+      "locales": {
+        "ko": {
+          "title": "나무 위 오누이, 하늘에 도움을 빌다 | 해와 달 2부",
+          "alternate_title": "하늘에서 내려온 동아줄 | 해와 달이 된 오누이 2부",
+          "description": "높은 가지 위에 숨은 오누이, 그 아래서 올려다보는 호랑이.\n더는 피할 곳이 없는 아이들은 하늘에 간절히 도움을 빕니다.\n\n해와 달이 된 오누이 — 하늘에서 내려온 동아줄 | 2부 / 총 2부 · 28초\n한국 전래설화의 일부를 쇼츠에 맞게 각색했습니다. 수묵화풍 애니메이션과 한국어 내레이션으로 전합니다.\n\n#해와달이된오누이 #한국설화 #수묵화",
+          "hashtags": ["#해와달이된오누이", "#한국설화", "#수묵화"],
+          "tags": ["해와 달이 된 오누이", "해와달이된오누이", "해님달님", "하늘에서 내려온 동아줄", "한국 설화", "한국 전래동화", "오누이 이야기", "호랑이 설화", "수묵화 애니메이션", "설화 쇼츠", "먹빛설화"],
+          "video_language": "ko", "metadata_language": "ko", "expected_filename": "01_sun_and_moon_p02_ko.mp4"
+        },
+        "en": {
+          "title": "A Tiger Below. One Hope Above. | Sun & Moon Pt. 2",
+          "alternate_title": "A Rope from the Sky | The Sun and the Moon, Part 2",
+          "description": "Two children cling to a high branch while a tiger watches below.\nWith nowhere left to hide, they turn to the heavens for help.\n\nThe Sun and the Moon — The Rope from the Sky | Part 2 of 2 | 28 seconds\nA short retelling of a traditional Korean folktale. Ink-wash-style animation with English narration.\n\nDalbong Korean Tales\n\n#KoreanFolklore #SunAndMoon #InkWashAnimation",
+          "hashtags": ["#KoreanFolklore", "#SunAndMoon", "#InkWashAnimation"],
+          "tags": ["the sun and the moon", "sun and moon Korean folktale", "rope from the sky", "Korean folklore", "Korean folktales", "Korean tiger story", "ink wash animation", "Korean storytelling", "animated short", "Dalbong Korean Tales"],
+          "video_language": "en", "metadata_language": "en", "expected_filename": "01_sun_and_moon_p02_en.mp4"
+        }
+      },
+      "editorial_review": {"status": "DRAFT_FINAL_VIDEO_REVIEW_REQUIRED", "avoid_spoilers": {"ko": [], "en": []}}
+    },
+    {
+      "episode_id": "02_fairy_and_woodcutter_p01", "story_id": "02_fairy_and_woodcutter", "part_number": 1, "part_count": 2, "classification": "adapted",
+      "source_brief": "episodes/02_fairy_and_woodcutter_p01.md", "previous_episode": null, "next_episode": "02_fairy_and_woodcutter_p02",
+      "locales": {
+        "ko": {
+          "title": "선녀가 하늘로 돌아가지 못한 이유 | 선녀와 나무꾼 1부",
+          "alternate_title": "사라진 날개옷, 혼자 남은 선녀 | 선녀와 나무꾼 1부",
+          "description": "숲속에서 사라진 날개옷 한 벌. 다른 선녀들이 떠난 뒤, 한 사람만 지상에 남았습니다.\n그녀가 찾는 돌아갈 길은 어디에 숨겨져 있을까요?\n\n선녀와 나무꾼 — 훔친 날개옷 | 1부 / 총 2부 · 28초\n한국 전래설화의 일부를 쇼츠에 맞게 각색했습니다. 수묵화풍 애니메이션과 한국어 내레이션으로 전합니다.\n\n#선녀와나무꾼 #한국설화 #수묵화",
+          "hashtags": ["#선녀와나무꾼", "#한국설화", "#수묵화"],
+          "tags": ["선녀와 나무꾼", "나무꾼과 선녀", "선녀와나무꾼", "훔친 날개옷", "날개옷", "한국 설화", "한국 전래동화", "선녀 이야기", "수묵화 애니메이션", "설화 쇼츠", "먹빛설화"],
+          "video_language": "ko", "metadata_language": "ko", "expected_filename": "02_fairy_and_woodcutter_p01_ko.mp4"
+        },
+        "en": {
+          "title": "He Hid Her Only Way Home | The Sky Maiden Pt. 1",
+          "alternate_title": "The Stolen Robe | The Sky Maiden and the Woodcutter, Part 1",
+          "description": "A wing robe disappears from the forest. As the other sky maidens leave, one is left behind.\nWhere has her way home been hidden?\n\nThe Sky Maiden and the Woodcutter — The Stolen Robe | Part 1 of 2 | 28 seconds\nA short retelling of a traditional Korean folktale. Ink-wash-style animation with English narration.\n\nDalbong Korean Tales\n\n#KoreanFolklore #SkyMaiden #InkWashAnimation",
+          "hashtags": ["#KoreanFolklore", "#SkyMaiden", "#InkWashAnimation"],
+          "tags": ["sky maiden and the woodcutter", "fairy and the woodcutter", "Korean folktales", "Korean folklore", "stolen wing robe", "sky maiden", "Korean fairy tale", "ink wash animation", "Korean storytelling", "Dalbong Korean Tales"],
+          "video_language": "en", "metadata_language": "en", "expected_filename": "02_fairy_and_woodcutter_p01_en.mp4"
+        }
+      },
+      "editorial_review": {"status": "DRAFT_FINAL_VIDEO_REVIEW_REQUIRED", "avoid_spoilers": {"ko": [], "en": []}}
+    },
+    {
+      "episode_id": "02_fairy_and_woodcutter_p02", "story_id": "02_fairy_and_woodcutter", "part_number": 2, "part_count": 2, "classification": "adapted",
+      "source_brief": "episodes/02_fairy_and_woodcutter_p02.md", "previous_episode": "02_fairy_and_woodcutter_p01", "next_episode": null,
+      "locales": {
+        "ko": {
+          "title": "숨겼던 날개옷을 꺼내자 생긴 일 | 선녀와 나무꾼 2부",
+          "alternate_title": "세월이 흘러도 선녀는 하늘을 바라봤다 | 선녀와 나무꾼 2부",
+          "description": "몇 해가 흐르고 아이 둘이 태어났지만, 선녀의 시선은 여전히 하늘로 향했습니다.\n나무꾼이 감춰 둔 날개옷을 꺼내는 날, 그녀는 어떤 선택을 할까요?\n\n선녀와 나무꾼 — 돌아간 날개 | 2부 / 총 2부 · 28초\n한국 전래설화의 일부를 쇼츠에 맞게 각색했습니다. 수묵화풍 애니메이션과 한국어 내레이션으로 전합니다.\n\n#선녀와나무꾼 #한국설화 #수묵화",
+          "hashtags": ["#선녀와나무꾼", "#한국설화", "#수묵화"],
+          "tags": ["선녀와 나무꾼", "나무꾼과 선녀", "선녀와나무꾼", "돌아간 날개", "날개옷", "선녀의 선택", "한국 설화", "한국 전래동화", "수묵화 애니메이션", "설화 쇼츠", "먹빛설화"],
+          "video_language": "ko", "metadata_language": "ko", "expected_filename": "02_fairy_and_woodcutter_p02_ko.mp4"
+        },
+        "en": {
+          "title": "The Day He Revealed Her Robe | The Sky Maiden Pt. 2",
+          "alternate_title": "Wings Returned | The Sky Maiden and the Woodcutter, Part 2",
+          "description": "Years pass and two children are born, but the sky maiden still looks toward the heavens.\nWhen the woodcutter reveals the hidden robe, what will she choose?\n\nThe Sky Maiden and the Woodcutter — Wings Returned | Part 2 of 2 | 28 seconds\nA short retelling of a traditional Korean folktale. Ink-wash-style animation with English narration.\n\nDalbong Korean Tales\n\n#KoreanFolklore #SkyMaiden #InkWashAnimation",
+          "hashtags": ["#KoreanFolklore", "#SkyMaiden", "#InkWashAnimation"],
+          "tags": ["sky maiden and the woodcutter", "fairy and the woodcutter", "wings returned", "sky maiden", "Korean folklore", "Korean folktales", "wing robe", "ink wash animation", "Korean storytelling", "Dalbong Korean Tales"],
+          "video_language": "en", "metadata_language": "en", "expected_filename": "02_fairy_and_woodcutter_p02_en.mp4"
+        }
+      },
+      "editorial_review": {"status": "DRAFT_FINAL_VIDEO_REVIEW_REQUIRED", "avoid_spoilers": {"ko": [], "en": []}}
+    },
+    {
+      "episode_id": "03_gumiho_last_night", "story_id": "03_gumiho_last_night", "part_number": 1, "part_count": 1, "classification": "original",
+      "source_brief": "stories/03_gumiho_last_night.md", "previous_episode": null, "next_episode": null,
+      "locales": {
+        "ko": {
+          "title": "천 년을 기다린 구미호, 마지막 밤의 선택",
+          "alternate_title": "사람이 될 단 한 번의 기회 | 구미호의 마지막 밤",
+          "description": "천 년을 기다린 단 한 번의 기회. 새벽을 앞둔 구미호가 눈밭에서 쓰러진 아이를 발견합니다.\n사람이 되고 싶은 마음과 아이를 구하려는 마음 사이에서, 그녀는 무엇을 선택할까요?\n\n구미호의 마지막 밤 | 28초 단편\n구미호를 모티브로 새롭게 쓴 한국풍 창작 설화입니다. 수묵화풍 애니메이션과 한국어 내레이션으로 전합니다.\n\n#구미호 #창작설화 #수묵화",
+          "hashtags": ["#구미호", "#창작설화", "#수묵화"],
+          "tags": ["구미호", "구미호의 마지막 밤", "여우 구슬", "구미호 이야기", "한국풍 창작 설화", "창작 설화", "동양 판타지", "수묵화 애니메이션", "수묵담채", "감성 판타지", "먹빛설화"],
+          "video_language": "ko", "metadata_language": "ko", "expected_filename": "03_gumiho_last_night_ko.mp4"
+        },
+        "en": {
+          "title": "A Thousand Years for One Chance | The Fox Spirit's Last Night",
+          "alternate_title": "One Pearl. One Chance to Be Human. | A Gumiho Tale",
+          "description": "A thousand years of waiting. One chance to become human. Before dawn, a fox spirit finds a child freezing in the snow.\nWhat will she do when that chance meets a life in danger?\n\nThe Fox Spirit's Last Night | 28-second standalone\nAn original Korean-inspired tale featuring a gumiho, a nine-tailed fox spirit. Ink-wash-style animation with English narration.\n\nDalbong Korean Tales\n\n#Gumiho #OriginalStory #InkWashAnimation",
+          "hashtags": ["#Gumiho", "#OriginalStory", "#InkWashAnimation"],
+          "tags": ["gumiho", "kumiho", "nine tailed fox", "fox spirit", "the fox spirit last night", "Korean inspired fantasy", "original story", "ink wash animation", "fantasy short", "Korean storytelling", "Dalbong Korean Tales"],
+          "video_language": "en", "metadata_language": "en", "expected_filename": "03_gumiho_last_night_en.mp4"
+        }
+      },
+      "editorial_review": {"status": "DRAFT_FINAL_VIDEO_REVIEW_REQUIRED", "avoid_spoilers": {"ko": [], "en": []}}
+    },
+    {
+      "episode_id": "04_dokkaebi_club_p01", "story_id": "04_dokkaebi_club", "part_number": 1, "part_count": 2, "classification": "adapted",
+      "source_brief": "episodes/04_dokkaebi_club_p01.md", "previous_episode": null, "next_episode": "04_dokkaebi_club_p02",
+      "locales": {
+        "ko": {
+          "title": "도깨비를 놀라게 한 뜻밖의 소리 | 도깨비방망이 1부",
+          "alternate_title": "개암 한 알이 불러온 행운 | 도깨비방망이 1부",
+          "description": "부모님 몫의 개암을 챙긴 나무꾼이 밤을 피하려 빈집에 들어갑니다.\n도깨비들의 신기한 방망이를 지켜보던 그때, 숨어 있던 자리에서 작은 소리가 울립니다.\n\n도깨비방망이 — 개암 한 알 | 1부 / 총 2부 · 28초\n한국 전래설화의 일부를 쇼츠에 맞게 각색했습니다. 수묵화풍 애니메이션과 한국어 내레이션으로 전합니다.\n\n#도깨비방망이 #한국설화 #수묵화",
+          "hashtags": ["#도깨비방망이", "#한국설화", "#수묵화"],
+          "tags": ["도깨비방망이", "도깨비 방망이", "도깨비 이야기", "개암 한 알", "개암", "한국 설화", "한국 전래동화", "마법 방망이", "수묵화 애니메이션", "설화 쇼츠", "먹빛설화"],
+          "video_language": "ko", "metadata_language": "ko", "expected_filename": "04_dokkaebi_club_p01_ko.mp4"
+        },
+        "en": {
+          "title": "The Tiny Sound That Frightened Goblins | Dokkaebi Pt. 1",
+          "alternate_title": "One Hazelnut Changed His Night | The Dokkaebi Club, Part 1",
+          "description": "After setting aside hazelnuts for his parents, a woodcutter shelters in an empty house.\nHe watches two dokkaebi summon gold with a magic club—until a small sound breaks the silence.\n\nThe Dokkaebi Club — One Hazelnut | Part 1 of 2 | 28 seconds\nA short retelling of a traditional Korean folktale. Ink-wash-style animation with English narration.\n\nDalbong Korean Tales\n\n#Dokkaebi #KoreanFolklore #InkWashAnimation",
+          "hashtags": ["#Dokkaebi", "#KoreanFolklore", "#InkWashAnimation"],
+          "tags": ["dokkaebi", "dokkebi", "Korean goblins", "magic club", "one hazelnut", "Korean folklore", "Korean folktales", "ink wash animation", "animated folktale", "Korean storytelling", "Dalbong Korean Tales"],
+          "video_language": "en", "metadata_language": "en", "expected_filename": "04_dokkaebi_club_p01_en.mp4"
+        }
+      },
+      "editorial_review": {"status": "DRAFT_FINAL_VIDEO_REVIEW_REQUIRED", "avoid_spoilers": {"ko": [], "en": []}}
+    },
+    {
+      "episode_id": "04_dokkaebi_club_p02", "story_id": "04_dokkaebi_club", "part_number": 2, "part_count": 2, "classification": "adapted",
+      "source_brief": "episodes/04_dokkaebi_club_p02.md", "previous_episode": "04_dokkaebi_club_p01", "next_episode": null,
+      "locales": {
+        "ko": {
+          "title": "같은 개암 소리인데, 이번엔 달랐다 | 도깨비방망이 2부",
+          "alternate_title": "남의 행운을 따라 한 욕심쟁이 | 도깨비방망이 2부",
+          "description": "나무꾼의 보물을 탐낸 이웃은 개암만 깨물면 같은 행운이 찾아올 거라 믿었습니다.\n같은 빈집, 같은 도깨비, 같은 소리. 이번에도 같은 결과가 기다릴까요?\n\n도깨비방망이 — 욕심쟁이가 따라 한 밤 | 2부 / 총 2부 · 28초\n한국 전래설화의 일부를 쇼츠에 맞게 각색했습니다. 수묵화풍 애니메이션과 한국어 내레이션으로 전합니다.\n\n#도깨비방망이 #한국설화 #수묵화",
+          "hashtags": ["#도깨비방망이", "#한국설화", "#수묵화"],
+          "tags": ["도깨비방망이", "도깨비 방망이", "욕심쟁이 이야기", "욕심쟁이 이웃", "개암 한 알", "한국 설화", "한국 전래동화", "도깨비 이야기", "수묵화 애니메이션", "설화 쇼츠", "먹빛설화"],
+          "video_language": "ko", "metadata_language": "ko", "expected_filename": "04_dokkaebi_club_p02_ko.mp4"
+        },
+        "en": {
+          "title": "The Same Trick. A Different Night. | Dokkaebi Pt. 2",
+          "alternate_title": "He Wanted the Same Fortune | The Dokkaebi Club, Part 2",
+          "description": "A greedy neighbor believes one hazelnut will bring him the woodcutter's fortune.\nThe same house, the same goblins, the same sound. Will the trick work again?\n\nThe Dokkaebi Club — The Greedy Neighbor | Part 2 of 2 | 28 seconds\nA short retelling of a traditional Korean folktale. Ink-wash-style animation with English narration.\n\nDalbong Korean Tales\n\n#Dokkaebi #KoreanFolklore #InkWashAnimation",
+          "hashtags": ["#Dokkaebi", "#KoreanFolklore", "#InkWashAnimation"],
+          "tags": ["dokkaebi", "dokkebi", "Korean goblins", "greedy neighbor", "magic club folktale", "hazelnut story", "Korean folklore", "Korean folktales", "ink wash animation", "Korean storytelling", "Dalbong Korean Tales"],
+          "video_language": "en", "metadata_language": "en", "expected_filename": "04_dokkaebi_club_p02_en.mp4"
+        }
+      },
+      "editorial_review": {"status": "DRAFT_FINAL_VIDEO_REVIEW_REQUIRED", "avoid_spoilers": {"ko": [], "en": []}}
+    },
+    {
+      "episode_id": "05_maehwa_spirit", "story_id": "05_maehwa_spirit", "part_number": 1, "part_count": 1, "classification": "original",
+      "source_brief": "stories/05_maehwa_spirit.md", "previous_episode": null, "next_episode": null,
+      "locales": {
+        "ko": {
+          "title": "발자국 없는 여인이 매화 아래 서 있었다 | 매화령",
+          "alternate_title": "오래된 약속을 찾아 돌아온 선비 | 매화령",
+          "description": "눈 덮인 매화나무 아래 서 있는 여인. 이상하게도 그녀의 발밑에는 발자국이 없습니다.\n몇 해 만에 돌아온 선비는 그 사실을 알아채지 못한 채, 오래된 봄의 약속을 떠올립니다.\n\n매화령 — 돌아오지 못한 봄 | 28초 단편\n새롭게 쓴 한국풍 창작 설화입니다. 수묵화풍 애니메이션과 한국어 내레이션으로 전합니다.\n\n#매화령 #창작설화 #수묵화",
+          "hashtags": ["#매화령", "#창작설화", "#수묵화"],
+          "tags": ["매화령", "매화 이야기", "발자국 없는 여인", "봄의 약속", "한국풍 창작 설화", "창작 설화", "동양 판타지", "몽환적인 이야기", "수묵화 애니메이션", "매화 수묵화", "먹빛설화"],
+          "video_language": "ko", "metadata_language": "ko", "expected_filename": "05_maehwa_spirit_ko.mp4"
+        },
+        "en": {
+          "title": "She Left No Footprints | The Plum Blossom Promise",
+          "alternate_title": "An Old Promise Beneath the Plum Blossoms | A Korean-Inspired Tale",
+          "description": "A woman waits beneath a plum tree in the snow. There are no footprints beneath her feet.\nReturning after years away, a scholar remembers an old promise—and fails to notice what is missing.\n\nThe Plum Blossom Promise | 28-second standalone\nAn original Korean-inspired tale. Ink-wash-style animation with English narration.\n\nDalbong Korean Tales\n\n#PlumBlossom #OriginalStory #InkWashAnimation",
+          "hashtags": ["#PlumBlossom", "#OriginalStory", "#InkWashAnimation"],
+          "tags": ["plum blossom promise", "plum blossom spirit", "maehwa", "no footprints", "Korean inspired fantasy", "original story", "ink wash animation", "dreamlike animation", "mysterious tale", "Korean storytelling", "Dalbong Korean Tales"],
+          "video_language": "en", "metadata_language": "en", "expected_filename": "05_maehwa_spirit_en.mp4"
+        }
+      },
+      "editorial_review": {"status": "DRAFT_FINAL_VIDEO_REVIEW_REQUIRED", "avoid_spoilers": {"ko": ["무덤", "묘표", "죽은", "귀신"], "en": ["grave", "dead", "ghost", "died"]}}
+    }
+  ]
+}
