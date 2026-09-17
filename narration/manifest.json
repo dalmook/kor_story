@@ -1,0 +1,64 @@
+{
+  "schema_version": 1,
+  "source_commit": "2b7cd5d242880babee3654f4863aed07542037be",
+  "status": "TEXT_VERIFIED_MEDIA_NOT_GENERATED",
+  "canonical_format": "narration/<story_id>.<locale>.txt",
+  "narration_only": true,
+  "locales": ["ko", "en"],
+  "shared_flow_clip_count": 7,
+  "clip_seconds": 4,
+  "output_seconds": 28,
+  "output_frames": 840,
+  "output_fps": 30,
+  "expected_initial_flow_credits": 49,
+  "flow_credit_cap": 50,
+  "additional_flow_for_second_locale": 0,
+  "actual_audio_duration_seconds": null,
+  "stories": [
+    {
+      "story_id": "01_sun_and_moon",
+      "title_ko": "해와 달이 된 오누이",
+      "story_file": "stories/01_sun_and_moon.md",
+      "locales": {
+        "ko": {"file": "narration/01_sun_and_moon.ko.txt", "git_blob_sha": "d90aba1cb339374f2525f043f292af2132f17dc1", "scene_lines": 7},
+        "en": {"file": "narration/01_sun_and_moon.en.txt", "git_blob_sha": "740bbca3edaed334791d13fcad5e639ee3eddf1e", "scene_lines": 7}
+      }
+    },
+    {
+      "story_id": "02_fairy_and_woodcutter",
+      "title_ko": "선녀와 나무꾼 — 돌아간 날개",
+      "story_file": "stories/02_fairy_and_woodcutter.md",
+      "locales": {
+        "ko": {"file": "narration/02_fairy_and_woodcutter.ko.txt", "git_blob_sha": "7ad61489efd98ea1db918659276db07a5f258321", "scene_lines": 7},
+        "en": {"file": "narration/02_fairy_and_woodcutter.en.txt", "git_blob_sha": "c0a3f4355661f8089427ea1481166022c4f439b7", "scene_lines": 7}
+      }
+    },
+    {
+      "story_id": "03_gumiho_last_night",
+      "title_ko": "구미호의 마지막 밤",
+      "story_file": "stories/03_gumiho_last_night.md",
+      "locales": {
+        "ko": {"file": "narration/03_gumiho_last_night.ko.txt", "git_blob_sha": "f696fdfb89dc944b49f0ee242eb8464b815ee4a0", "scene_lines": 7},
+        "en": {"file": "narration/03_gumiho_last_night.en.txt", "git_blob_sha": "ad64518cae458a7c2ceb25e15504fea6e6f50354", "scene_lines": 7}
+      }
+    },
+    {
+      "story_id": "04_dokkaebi_club",
+      "title_ko": "도깨비방망이 — 개암 한 알",
+      "story_file": "stories/04_dokkaebi_club.md",
+      "locales": {
+        "ko": {"file": "narration/04_dokkaebi_club.ko.txt", "git_blob_sha": "2f41b6ca8ec5e50fcdc7b60ddb8f2e8c88f215ef", "scene_lines": 7},
+        "en": {"file": "narration/04_dokkaebi_club.en.txt", "git_blob_sha": "8e03c4e3d6f18f637819fee7cc98158e640f2df3", "scene_lines": 7}
+      }
+    },
+    {
+      "story_id": "05_maehwa_spirit",
+      "title_ko": "매화령 — 돌아오지 못한 봄",
+      "story_file": "stories/05_maehwa_spirit.md",
+      "locales": {
+        "ko": {"file": "narration/05_maehwa_spirit.ko.txt", "git_blob_sha": "5ecacea93ee571d79390fcb8d2d7457149144702", "scene_lines": 7},
+        "en": {"file": "narration/05_maehwa_spirit.en.txt", "git_blob_sha": "887928e6ab2c8c154f0a5a98f9706a685ab878af", "scene_lines": 7}
+      }
+    }
+  ]
+}

@@ -16,6 +16,8 @@
 
 [HERMES_COMMANDS.md](HERMES_COMMANDS.md)에서 이야기 하나의 명령을 전달하세요. 상세 지시, KO/EN 대본, 35개 이미지/모션 프롬프트와 30개 장면 경계 지시는 각 이야기 문서에 있습니다.
 
+[매화령 최종 복사·붙여넣기 전달문](docs/HERMES_BILINGUAL_HANDOFF.md)도 준비되어 있습니다. 최신 v2를 유지하면서 같은 영상으로 한국어판과 영어판을 제작하는 명령과 검수 결과를 한곳에 정리했습니다.
+
 | 번호 | 이야기 | v2의 이야기 중심 |
 |---|---|---|
 | 01 | [해와 달이 된 오누이](stories/01_sun_and_moon.md) | 엄마 목소리와 발톱의 모순 → 추격 → 서로 다른 동아줄 → 해와 달 |
@@ -50,6 +52,10 @@
 - [수묵 전환 · 애니메이션 · 자막 규격](docs/INK_EDITING_SPEC.md)
 - [바로 TTS에 넣는 한국어/영어 텍스트](narration/)
 - [원전과 각색 범위 / 공식 기능 출처](docs/SOURCES.md)
+- [최종 헤르메스 전달문 / 원고 검수 안내](docs/HERMES_BILINGUAL_HANDOFF.md)
+- [대본 파일·해시 목록](narration/manifest.json)
+
+원고 무결성 확인: 저장소 루트에서 `python tools/check_narration_manifest.py`를 실행합니다. 10개 TXT의 검토한 버전과 장면 줄 수만 검사하며, 실제 음성·영상 품질 검증은 별도입니다. Windows CRLF 체크아웃도 지원합니다.
 
 ## 상태
 
