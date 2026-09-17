@@ -1,0 +1,18 @@
+<!doctype html>
+<html lang="ko"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>먹빛설화 v4 — 레이아웃 수치 확인용</title>
+<style>
+*{box-sizing:border-box}body{margin:0;background:#303840;color:#f3efe5;font-family:Arial,sans-serif;padding:24px}h1{font-size:20px}p{max-width:900px;line-height:1.6}.row{display:flex;flex-wrap:wrap;gap:24px}.phone{width:360px;height:640px;position:relative;overflow:hidden;background:#17212a}.canvas{width:1080px;height:1920px;position:absolute;left:0;top:0;transform:scale(.3333333333);transform-origin:0 0;background:linear-gradient(130deg,#17212a,#4d575a 70%,#17212a)}.canvas:before{content:'실제 원화로 교체할 자리 · NOT FINAL ART';position:absolute;left:100px;top:100px;color:#b9b5ae;font-size:27px}.title{position:absolute;left:108px;top:350px;width:804px;font:600 108px/1.16 'Noto Serif KR','Noto Serif CJK KR','NanumMyeongjo',serif}.title.en{font-family:'Noto Serif',serif;font-size:92px}.kicker{position:absolute;left:108px;top:274px;width:804px;font:500 34px/1.25 'Noto Sans KR','Noto Sans CJK KR',sans-serif;letter-spacing:1px;color:#c5af86}.captions{position:absolute;left:96px;top:1296px;width:828px;height:176px;display:flex;flex-direction:column;justify-content:center;text-align:center;font:600 72px/88px 'Noto Sans KR','Noto Sans CJK KR','NanumGothic',sans-serif;color:#f3efe5;-webkit-text-stroke:2px #17212a;paint-order:stroke fill;text-shadow:0 3px 9px #17212a}.captions.en{font:600 68px/88px 'Noto Sans',sans-serif}.captions span{display:block;white-space:nowrap}.guide{position:absolute;left:96px;top:1296px;width:828px;height:176px;outline:2px dashed #c5af86;pointer-events:none}.note{position:absolute;left:100px;bottom:200px;font-size:28px;color:#b9b5ae}.outro{font-size:88px}.outro.en{font-size:84px}.metric{font-size:12px;white-space:pre-wrap}
+</style>
+<h1>1080×1920 원본 → 360×640 표시</h1>
+<p>레이아웃 검수 표본입니다. 최종 이미지/영상이 아닙니다. 캔버스는 원본 픽셀로 만들고 바깥 표시 배율만1/3입니다. 실제 Codex 제작에서는 승인된 원화를 배경에 넣고 폰트 로드와 각 줄의 폭을 다시 검사합니다. 점선·안내문은 최종본에 넣지 않습니다.</p>
+<div class="row">
+<section><div class="phone"><div class="canvas"><div class="kicker">해와 달이 된 오누이 · 1부</div><div class="title">문밖의 엄마</div><div class="guide"></div><div class="captions" data-max="828"><span>문밖에서 엄마 목소리가</span><span>들렸다</span></div><div class="note">자막 KO72px / 2줄 / bottom1472</div></div></div></section>
+<section><div class="phone"><div class="canvas"><div class="kicker">SUN &amp; MOON · PART 1</div><div class="title en">The Visitor<br>at the Door</div><div class="guide"></div><div class="captions en" data-max="828"><span>The children quietly</span><span>opened the back door.</span></div><div class="note">Caption EN68px / 2 lines / bottom1472</div></div></div></section>
+<section><div class="phone"><div class="canvas"><div class="kicker">2부 예고</div><div class="title outro">하늘에서 내려온<br>동아줄</div><div class="note">예고 KO88px / 실제 원화에 합성</div></div></div></section>
+</div>
+<p class="metric" id="metrics">폰트 로딩 확인 중…</p>
+<script>
+document.fonts.ready.then(()=>{const out=[];document.querySelectorAll('.captions').forEach(el=>{const style=getComputedStyle(el), c=document.createElement('canvas'),ctx=c.getContext('2d');ctx.font=`${style.fontWeight} ${style.fontSize} ${style.fontFamily}`;el.querySelectorAll('span').forEach(line=>{const w=ctx.measureText(line.textContent).width;out.push(`${style.fontSize}: ${line.textContent} — ${w.toFixed(1)}px / 828px ${w<=828?'OK':'OVERFLOW'}`)})});document.querySelector('#metrics').textContent=out.join('\n');window.layoutMetrics=out;});
+</script>
+</html>

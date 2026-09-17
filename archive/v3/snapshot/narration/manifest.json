@@ -1,0 +1,98 @@
+{
+  "schema_version": 3,
+  "status": "BRIEFS_READY_MEDIA_NOT_GENERATED",
+  "source_commit": "cce069fd90becd21889ca27c09ee1ac7870678cc",
+  "narration_only": true,
+  "locales": ["ko", "en"],
+  "budget_unit": "episode",
+  "flow_clips_per_episode": 7,
+  "seconds_per_clip": 4,
+  "seconds_per_episode": 28,
+  "fps": 30,
+  "frames_per_episode": 840,
+  "expected_initial_flow_credits_per_episode": 49,
+  "flow_credit_cap_per_episode": 50,
+  "auto_advance": false,
+  "episodes": [
+    {
+      "story_id": "01_sun_and_moon", "episode_id": "01_sun_and_moon_p01", "part_number": 1, "part_count": 2,
+      "title": {"ko": "문밖의 엄마", "en": "The Visitor at the Door"},
+      "brief": "episodes/01_sun_and_moon_p01.md", "classification": "adapted",
+      "previous_episode": null, "next_episode": "01_sun_and_moon_p02",
+      "locales": {
+        "ko": {"file": "narration/01_sun_and_moon_p01.ko.txt", "git_blob_sha": "ad21dadf2186ecccc512fc3097ab3d3d360a564b", "scene_lines": 7},
+        "en": {"file": "narration/01_sun_and_moon_p01.en.txt", "git_blob_sha": "685961b4db362f6fdfa21d0060c9880838119e4f", "scene_lines": 7}
+      }
+    },
+    {
+      "story_id": "01_sun_and_moon", "episode_id": "01_sun_and_moon_p02", "part_number": 2, "part_count": 2,
+      "title": {"ko": "하늘에서 내려온 동아줄", "en": "The Rope from the Sky"},
+      "brief": "episodes/01_sun_and_moon_p02.md", "classification": "adapted",
+      "previous_episode": "01_sun_and_moon_p01", "next_episode": null,
+      "locales": {
+        "ko": {"file": "narration/01_sun_and_moon_p02.ko.txt", "git_blob_sha": "5430dc2665f8098eebb2b78ea481b603f4bf9228", "scene_lines": 7},
+        "en": {"file": "narration/01_sun_and_moon_p02.en.txt", "git_blob_sha": "ebefd48e21714809c2455a275de5820c0312a928", "scene_lines": 7}
+      }
+    },
+    {
+      "story_id": "02_fairy_and_woodcutter", "episode_id": "02_fairy_and_woodcutter_p01", "part_number": 1, "part_count": 2,
+      "title": {"ko": "훔친 날개옷", "en": "The Stolen Robe"},
+      "brief": "episodes/02_fairy_and_woodcutter_p01.md", "classification": "adapted",
+      "previous_episode": null, "next_episode": "02_fairy_and_woodcutter_p02",
+      "locales": {
+        "ko": {"file": "narration/02_fairy_and_woodcutter_p01.ko.txt", "git_blob_sha": "ce6eff3ab4d76906aa1d2ca5301ddaefd888d008", "scene_lines": 7},
+        "en": {"file": "narration/02_fairy_and_woodcutter_p01.en.txt", "git_blob_sha": "47478ff475cfed46c0139bb5070cf16addb797e6", "scene_lines": 7}
+      }
+    },
+    {
+      "story_id": "02_fairy_and_woodcutter", "episode_id": "02_fairy_and_woodcutter_p02", "part_number": 2, "part_count": 2,
+      "title": {"ko": "돌아간 날개", "en": "Wings Returned"},
+      "brief": "episodes/02_fairy_and_woodcutter_p02.md", "classification": "adapted",
+      "previous_episode": "02_fairy_and_woodcutter_p01", "next_episode": null,
+      "locales": {
+        "ko": {"file": "narration/02_fairy_and_woodcutter_p02.ko.txt", "git_blob_sha": "897bcd642d7037571537c02bc81bbf54af3a90df", "scene_lines": 7},
+        "en": {"file": "narration/02_fairy_and_woodcutter_p02.en.txt", "git_blob_sha": "6ab4fc93b496b4b545eeb93fb4e213a7606b68b9", "scene_lines": 7}
+      }
+    },
+    {
+      "story_id": "03_gumiho_last_night", "episode_id": "03_gumiho_last_night", "part_number": 1, "part_count": 1,
+      "title": {"ko": "구미호의 마지막 밤", "en": "The Fox Spirit's Last Night"},
+      "brief": "stories/03_gumiho_last_night.md", "classification": "original",
+      "previous_episode": null, "next_episode": null,
+      "locales": {
+        "ko": {"file": "narration/03_gumiho_last_night.ko.txt", "git_blob_sha": "f696fdfb89dc944b49f0ee242eb8464b815ee4a0", "scene_lines": 7},
+        "en": {"file": "narration/03_gumiho_last_night.en.txt", "git_blob_sha": "ad64518cae458a7c2ceb25e15504fea6e6f50354", "scene_lines": 7}
+      }
+    },
+    {
+      "story_id": "04_dokkaebi_club", "episode_id": "04_dokkaebi_club_p01", "part_number": 1, "part_count": 2,
+      "title": {"ko": "개암 한 알", "en": "One Hazelnut"},
+      "brief": "episodes/04_dokkaebi_club_p01.md", "classification": "adapted",
+      "previous_episode": null, "next_episode": "04_dokkaebi_club_p02",
+      "locales": {
+        "ko": {"file": "narration/04_dokkaebi_club_p01.ko.txt", "git_blob_sha": "f113c422df6e130623b65bd7b20db1a9a273df59", "scene_lines": 7},
+        "en": {"file": "narration/04_dokkaebi_club_p01.en.txt", "git_blob_sha": "629db1e45a9ee30ba40ca5a9d8e4c7816b197ee4", "scene_lines": 7}
+      }
+    },
+    {
+      "story_id": "04_dokkaebi_club", "episode_id": "04_dokkaebi_club_p02", "part_number": 2, "part_count": 2,
+      "title": {"ko": "욕심쟁이가 따라 한 밤", "en": "The Greedy Neighbor"},
+      "brief": "episodes/04_dokkaebi_club_p02.md", "classification": "adapted",
+      "previous_episode": "04_dokkaebi_club_p01", "next_episode": null,
+      "locales": {
+        "ko": {"file": "narration/04_dokkaebi_club_p02.ko.txt", "git_blob_sha": "2fa2829694750d185165982e9f5acb1c85d496c8", "scene_lines": 7},
+        "en": {"file": "narration/04_dokkaebi_club_p02.en.txt", "git_blob_sha": "cb9a875b8919ecbb69353b28a7156f15464a6620", "scene_lines": 7}
+      }
+    },
+    {
+      "story_id": "05_maehwa_spirit", "episode_id": "05_maehwa_spirit", "part_number": 1, "part_count": 1,
+      "title": {"ko": "매화령 — 돌아오지 못한 봄", "en": "The Plum Blossom Promise"},
+      "brief": "stories/05_maehwa_spirit.md", "classification": "original",
+      "previous_episode": null, "next_episode": null,
+      "locales": {
+        "ko": {"file": "narration/05_maehwa_spirit.ko.txt", "git_blob_sha": "5ecacea93ee571d79390fcb8d2d7457149144702", "scene_lines": 7},
+        "en": {"file": "narration/05_maehwa_spirit.en.txt", "git_blob_sha": "887928e6ab2c8c154f0a5a98f9706a685ab878af", "scene_lines": 7}
+      }
+    }
+  ]
+}

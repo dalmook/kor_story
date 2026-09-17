@@ -1,0 +1,82 @@
+{
+  "episode_id": "01_sun_and_moon_p01",
+  "version": 4,
+  "timing_status": "TARGET_WINDOWS_NOT_MEASURED_AUDIO",
+  "core_reference": "episodes/01_sun_and_moon_p01.md",
+  "character_reference": "Boy about ten with rounded face, black tied hair, indigo jeogori and ivory trousers. Girl about seven, one black braid with muted red ribbon, ivory jeogori and blue-gray chima. Neither child has an adult jaw, adult height or makeup. Same ochre-gray Korean folk tiger with black brush stripes in every shot. One Korean thatched cottage, three-bar paper front door, different plain wooden rear door, single crooked tree with trunk left and broad branch extending right, moon upper-right. Reuse approved reference images, not descriptive text alone.",
+  "spatial_rule": "The front paper door and rear wooden exit are different doors. The tiger starts at the front, the children leave through the rear. Shot 06 occurs later after the tiger has searched the house; its exit and the damaged panel do not imply teleportation. In shot 07 the tiger looks toward the children high on the branch, not toward the viewer. Keep screen direction and the moon consistent.",
+  "shots": [
+    {
+      "id": "01", "start_frame": 60, "duration_frames": 120,
+      "narration_ko": "문밖에서 엄마 목소리가 들렸다.", "narration_en": "Mother's voice came from outside.",
+      "caption_lines_ko": ["문밖에서 엄마 목소리가", "들렸다"], "caption_lines_en": ["Mother's voice", "came from outside."],
+      "speech_target_seconds": [2.12, 5.25], "target_not_actual": true,
+      "image": "Close interior view of the same ivory paper front door, occupying lower and central frame. An indistinct outside silhouette is already visible through the paper. Upper-left moonlit shadow remains calm, clear lower-middle space for subtitles. Large simple value shapes and fine hanji, not photographic wood grain everywhere. No tiger face or claws yet.",
+      "flow": "Establish the silhouette for the first half second. Through the middle two seconds, the shadow leans a little closer once and the paper moves gently in the draft. It settles in the final second. Camera locked. No sudden lunge, internal cut or speaking mouth.",
+      "edit": "No added zoom if the paper already moves. No persistent title over the core footage. Hold the entire two-line caption as one event; do not reveal one word at a time.",
+      "sound": "A low night-air bed. One soft paper rustle near 3.6 seconds, subject to actual motion. Never play an imitation of the mother's voice."
+    },
+    {
+      "id": "02", "start_frame": 180, "duration_frames": 120,
+      "narration_ko": "그런데 그 손에는 발톱이 있었다.", "narration_en": "But that hand had claws.",
+      "caption_lines_ko": ["그런데 그 손에는", "발톱이 있었다"], "caption_lines_en": ["But that hand", "had claws."],
+      "speech_target_seconds": [6.22, 9.32], "target_not_actual": true,
+      "image": "Macro view of the same front-door gap, one already-formed tiger paw and three readable claw tips pressing the paper at right-center. Preserve the same striped fur. Keep the paw inside the central action area above the subtitle zone. No human hand transforming, no blood or extra claws.",
+      "flow": "For about the first second, hold the recognizable paw. It presses inward slowly once over the middle two seconds, then stops while the paper quivers slightly. Locked camera, no fast thrust or growth of claws.",
+      "edit": "Direct motivated cut from the paper shadow to the paw. No black ink blob, wipe, flash or glow around the claws. Emphasize meaning with framing, not a cartoon effect.",
+      "sound": "One quiet wood/paper creak at maximum pressure. Keep it below the narrator. No horror sting or scream."
+    },
+    {
+      "id": "03", "start_frame": 300, "duration_frames": 120,
+      "narration_ko": "오누이는 숨죽여 뒷문을 열었다.", "narration_en": "The children quietly opened the back door.",
+      "caption_lines_ko": ["오누이는 숨죽여", "뒷문을 열었다"], "caption_lines_en": ["The children quietly", "opened the back door."],
+      "speech_target_seconds": [10.18, 13.30], "target_not_actual": true,
+      "image": "Medium shot of the two approved children at the different plain wooden rear sliding door. Boy on left with hand already on the edge; girl on right holding his sleeve. Narrow view of the yard through the gap. Childlike faces and proportions, no adult man. Keep hands clear and above y=1250 in a 1920-high frame.",
+      "flow": "The boy gently slides the already-parted door a short distance wider during the middle two seconds. The girl stays close; her braid ribbon moves slightly. Hands remain stable, no dialogue, exaggerated fear, latch manipulation or walk yet.",
+      "edit": "Use a simple cut. Do not sweep a triangular polygon or a fake sleeve across the frame. Children are the focus, with the bottom-middle reserved for the caption.",
+      "sound": "Soft wooden slide once, synchronized to the actual door movement. Remove any generated voices."
+    },
+    {
+      "id": "04", "start_frame": 420, "duration_frames": 120,
+      "narration_ko": "호랑이 몰래 집을 빠져나갔다.", "narration_en": "They slipped out before the tiger noticed.",
+      "caption_lines_ko": ["호랑이 몰래", "집을 빠져나갔다"], "caption_lines_en": ["They slipped out before", "the tiger noticed."],
+      "speech_target_seconds": [14.20, 17.15], "target_not_actual": true,
+      "image": "Side view just outside the same rear door. The boy is just across the threshold, girl still close holding his sleeve. The one crooked tree is visible screen left and the same moon upper-right. Keep the tiger out of frame. No new costume or change in the children's age.",
+      "flow": "After a brief settled opening, the siblings make one slow careful coordinated step away from the doorway across about two seconds, then settle. Their spacing and sleeve contact remain stable. Camera stays fixed, no running burst, leap or orbit.",
+      "edit": "Straight cut from the door-opening action. Do not speed the walk. If the generated motion is a burst followed by freezing, record it as unsuitable rather than globally slowing all footage.",
+      "sound": "One muted footstep per visible footfall at low level, no rhythmic march. A slight breath in the music after they leave."
+    },
+    {
+      "id": "05", "start_frame": 540, "duration_frames": 120,
+      "narration_ko": "높은 나무에 몸을 숨겼다.", "narration_en": "They hid high in a tree.",
+      "caption_lines_ko": ["높은 나무에", "몸을 숨겼다"], "caption_lines_en": ["They hid high", "in a tree."],
+      "speech_target_seconds": [18.24, 21.04], "target_not_actual": true,
+      "image": "The siblings already sit safely on the high broad branch, large enough to read their posture. Trunk left, branch right, cottage far below. Moon upper-right. Compose children in the upper middle and keep the subtitle area less detailed; avoid repeated identical mountain ridges filling every empty area.",
+      "flow": "The branch sways gently once during the middle of the shot. The children brace slightly while grips stay fixed. The girl's ribbon moves in the same breeze. Camera nearly locked with only a subtle upward drift, no climbing or jumping.",
+      "edit": "An eight-frame soft dissolve marks the time ellipsis. It blends the two actual pictures and never replaces them with beige or white paint. Keep the children's faces visible, no bright veil across their bodies.",
+      "sound": "Subtle leaf movement. Brief musical relief, not a cheerful victory tune. Narration ends early enough for a quiet beat on the branch."
+    },
+    {
+      "id": "06", "start_frame": 660, "duration_frames": 120,
+      "narration_ko": "곧 호랑이가 마당에 나타났다.", "narration_en": "Then the tiger entered the yard.",
+      "caption_lines_ko": ["곧 호랑이가", "마당에 나타났다"], "caption_lines_en": ["Then the tiger", "entered the yard."],
+      "speech_target_seconds": [22.20, 25.30], "target_not_actual": true,
+      "image": "Later, the same tiger has emerged from the already-damaged front doorway into the yard after searching the cottage. A cracked panel hangs beside it. The same tree is on the left; the children stay out of this frame. No explosion, injury or second animal.",
+      "flow": "The tiger takes one short slow grounded step during the middle two seconds. The loose panel swings once and settles. Preserve paws, body proportions and panel damage. No sudden rush or roaring performance.",
+      "edit": "Direct cut on a low wood sound. Do not add a visual impact flash or speed ramp. The earlier paper paw and this tiger must have the same fur palette and stripes.",
+      "sound": "A restrained panel creak and one low footfall. Introduce a quiet low drone underneath, at least 10 dB below nearby narration peaks."
+    },
+    {
+      "id": "07", "start_frame": 780, "duration_frames": 120,
+      "narration_ko": "그때, 호랑이가 고개를 들었다.", "narration_en": "And slowly, it looked up.",
+      "caption_lines_ko": ["그때, 호랑이가", "고개를 들었다"], "caption_lines_en": ["And slowly,", "it looked up."],
+      "speech_target_seconds": [26.20, 29.05], "target_not_actual": true,
+      "image": "Low rear three-quarter view behind the tiger beneath the same tree, not a frontal portrait. Its chin initially slightly lowered. The two siblings are clearly positioned high on the right-extending branch; the tiger's visible eye and muzzle can turn toward them. Preserve upper-right moon and wind. No rope or sun-and-moon ending in the core.",
+      "flow": "The tiger raises its chin slowly through the middle two seconds until its gaze is clearly directed up at the children, not at the camera. It holds that gaze near the end. Children stay still; ribbon moves gently. No jump or attack.",
+      "edit": "Match the animal's screen direction with a clean cut. Finish speech by about 29.05 seconds, leaving nearly a second of the held gaze before the separate teaser. No new narrative line after this.",
+      "sound": "One muted low accent as its gaze reaches the branch, followed by a thin wind tail. Carry that wind into the teaser without a loud whoosh."
+    }
+  ],
+  "opener": {"from": 0, "frames": 60, "title_enter": [3, 9], "title_hold_through": 51, "title_exit": [51, 59], "narration": false},
+  "outro": {"from": 900, "frames": 90, "mode": "teaser", "title_enter": [904, 912], "title_hold_through": 981, "title_exit": [981, 989], "narration": false, "plot_limit": "Rope tip and Part 2 title only, no rescued children, broken rope, sun or moon transformation."}
+}

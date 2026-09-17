@@ -1,0 +1,23 @@
+# Credentials and local state
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+cookies*.json
+storage-state*.json
+.auth/
+.auth-state/
+# Generated media and local work
+runs/
+node_modules/
+.remotion/
+__pycache__/
+*.pyc
+*.mp4
+*.mov
+*.wav
+*.mp3
+*.zip
+.DS_Store
+Thumbs.db

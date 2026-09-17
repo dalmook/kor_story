@@ -1,0 +1,31 @@
+{
+  "version": 4,
+  "status": "SPECIFICATION_NOT_A_RENDERED_VIDEO",
+  "executor": "codex_direct",
+  "frame": {"width": 1080, "height": 1920, "fps": 30, "intro_frames": 60, "core_shots": 7, "shot_frames": 120, "outro_frames": 90, "total_frames": 990},
+  "image_assets": {"opener": "images/00_opening.png", "core_pattern": "images/{shot:02d}.png", "outro": "images/08_outro.png", "count": 9, "baked_text": false},
+  "video_assets": {"core_pattern": "flow/{shot:02d}.mp4", "count": 7, "normal_playback_rate": 1.0, "global_speedup_allowed": false, "allow_final_mp4_as_clean_source": false},
+  "budget": {"flow_cap": 50, "expected_unit_credits": 7, "expected_initial_credits": 49, "outputs_per_request": 1, "automatic_paid_retries": 0, "additional_cash_cap": 0, "verify_ui_before_each_submit": true, "repair_existing_raw_first": true},
+  "palette": {"ink": "#17212A", "paper": "#F3EFE5", "accent": "#C5AF86", "muted": "#B9B5AE"},
+  "type": {
+    "ko_title_font": "Noto Serif KR", "en_title_font": "Noto Serif", "ko_caption_font": "Noto Sans KR", "en_caption_font": "Noto Sans",
+    "ko_title_px": 108, "en_title_px": 92, "title_min_px": 84, "title_line_height": 1.16,
+    "ko_caption_px": 72, "en_caption_px": 68, "caption_min_px": 64, "caption_weight": 600, "caption_line_height_px": 88,
+    "caption_x": 96, "caption_top": 1296, "caption_width": 828, "caption_max_bottom": 1472, "caption_max_lines": 2,
+    "caption_stroke_px": 2, "caption_scrim_max_alpha": 0.34,
+    "caption_fade_frames": 3, "caption_y_motion_px": 0, "karaoke": false, "word_by_word": false,
+    "caption_min_seconds": 1.8, "caption_target_seconds": [2.4, 3.5], "ko_cps_target": 9, "ko_cps_max": 12, "en_cps_target": 15, "en_cps_max": 17,
+    "title_x": 108, "title_y": 350, "title_width": 804, "title_max_lines": 2, "kicker_px": 34, "part_label_px": 40,
+    "outro_title_ko_px": 88, "outro_title_en_px": 84, "outro_title_min_px": 76
+  },
+  "motion": {"core_additional_zoom_max": 1.02, "still_scale_start": 1.0, "still_scale_end": 1.015, "still_translate_max_px": 12, "camera_orbits": false, "shake": false, "speed_ramps": false, "one_primary_action_per_shot": true},
+  "transitions": {
+    "allowed": ["cut", "dissolve"], "default_dissolve_frames": 8, "max_dissolve_frames": 10,
+    "max_dissolves_in_core": 2, "max_edge_clamp_frames": 5,
+    "black_blobs": false, "polygon_wipes": false, "full_frame_color_veils": false, "all_boundaries_must_be_hidden": false,
+    "duration_method": "fixed_slots_centered_blend_clamped_edge_samples"
+  },
+  "audio": {"voice_track": "one_narrator_per_locale", "source_flow_audio": "discard", "music_required": true, "sfx_required": true, "music_bpm_target": [60, 72], "voice_wpm_en_target": [105, 120], "voice_speedup_allowed": false, "music_under_voice_lufs_start": -30, "music_in_gaps_lufs_start": -26, "master_lufs": -16, "master_lufs_tolerance": 1, "true_peak_max_dbtp": -1, "sample_rate": 48000, "channels": 2, "music_fade_in_seconds": 0.6, "music_fade_out_seconds": 1.0, "teaser_has_narration": false},
+  "gates": ["tool_preflight", "nine_images_reviewed", "native_size_type_proof", "voice_and_caption_alignment", "first_flow_clip_review", "seven_clip_motion_review", "full_timeline_proof", "two_locale_mobile_review", "delivery_manifest"],
+  "failure_policy": {"authentication": "WAIT_FOR_LOGIN", "unavailable_tool": "BLOCKED_TOOL_ACCESS", "paid_generation_failure": "STOP_NO_AUTO_RETRY", "local_edit_retry_limit": 3, "unheard_audio": "LISTENING_REVIEW_PENDING", "success_word": "READY_FOR_USER_REVIEW", "never_guarantee_first_generation": true}
+}

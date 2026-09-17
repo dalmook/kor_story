@@ -1,0 +1,91 @@
+{
+  "version": 4,
+  "source_story_version": 3,
+  "default_episode": "01_sun_and_moon_p01",
+  "runtime_seconds": 33,
+  "auto_advance": false,
+  "image_prefix": "Vertical 9:16 Korean ink-and-light-color painting on fine warm ivory hanji. Diluted indigo ink, controlled dry brush edges, restrained mineral color, soft moonlight, 20 percent quiet negative space. Preserve approved Korean character and prop references. Elegant flat painted depth, not glossy 3D, not heavily etched or sepia-grunge. No tiled mountains, no repeated texture stamps. Do not render any text, letters, logo or seal. Leave the upper-left title area calm. No subtitles in the image.",
+  "flow_suffix": "One continuous four-second shot. Play a single natural restrained action over the full shot, not in a rushed first second. Establish for about 0.5 seconds, act gently through the middle, settle near the end. Preserve faces, clothing, anatomy, brush texture and spatial relationships. No cuts, scene morphs, speech, narration, singing, lip sync, subtitles or camera shake. No transition effects: editing is external. Do not create an artificial freeze after a burst of motion.",
+  "episodes": [
+    {
+      "episode_id": "01_sun_and_moon_p01", "brief": "episodes/01_sun_and_moon_p01.md", "parent": "stories/01_sun_and_moon.md", "detail_override": "production/01_sun_and_moon_p01_v4.json", "next_episode": "01_sun_and_moon_p02", "outro_mode": "teaser",
+      "opener_title": {"ko": "문밖의 엄마", "en": "The Visitor\nat the Door"},
+      "opener_kicker": {"ko": "해와 달이 된 오누이 · 1부", "en": "THE SUN AND THE MOON · PART 1"},
+      "outro_title": {"ko": "하늘에서 내려온\n동아줄", "en": "The Rope\nfrom the Sky"},
+      "outro_kicker": {"ko": "2부 예고", "en": "NEXT · PART 2"},
+      "opener_prompt": "A moonlit Korean thatched cottage and a closed ivory paper door occupy the lower right two thirds. A mysterious indistinct figure silhouette waits outside the lit paper, its face concealed. A dark pine branch frames the top right, quiet diluted indigo sky fills the upper left for a large title. Warm lamplight against cool night, inviting but uneasy. Do not reveal the tiger or show sun-and-moon transformation. Use the same three-bar paper door and cottage materials as scene 01, with a wider composition.",
+      "outro_prompt": "Teaser, not the resolution: view upward from a dark tree branch toward parted moonlit clouds. Only the lower tip of a pale braided rope has entered from the upper right. Leave large quiet indigo sky at upper left and center for the Part 2 title. A small muted red ribbon at the lower corner connects to the girl, but show no floating children, no broken rope, and no sun-and-moon ending. Same palette and pine brushwork as Part 1.",
+      "core_transitions": ["cut", "cut", "cut", "dissolve", "cut", "cut"]
+    },
+    {
+      "episode_id": "01_sun_and_moon_p02", "brief": "episodes/01_sun_and_moon_p02.md", "parent": "stories/01_sun_and_moon.md", "next_episode": null, "outro_mode": "closing",
+      "opener_title": {"ko": "하늘에서 내려온\n동아줄", "en": "The Rope\nfrom the Sky"},
+      "opener_kicker": {"ko": "해와 달이 된 오누이 · 2부", "en": "THE SUN AND THE MOON · PART 2"},
+      "outro_title": {"ko": "해와 달이 된\n오누이", "en": "The Sun\nand the Moon"},
+      "outro_kicker": {"ko": "이야기 끝", "en": "THE END"},
+      "opener_prompt": "The two approved siblings are small but readable on the high right-extending branch of the same tree, hands held close, looking toward pale moonlit clouds. The trunk frames the left edge. A distant tiger is barely a dark shape below, no violent action. Leave quiet sky behind the upper-left title area. Do not reveal the final sun or the broken rope.",
+      "outro_prompt": "A calm finished-story image: two distinct celestial discs above a wide Korean ink landscape, one muted ochre sun and one pale silver moon. Tiny same cottage low in the painting, slow-looking bands of mist and spacious sky for the closing title. No new characters, no Part 3 imagery or unresolved danger.",
+      "core_transitions": ["cut", "cut", "dissolve", "cut", "cut", "dissolve"]
+    },
+    {
+      "episode_id": "02_fairy_and_woodcutter_p01", "brief": "episodes/02_fairy_and_woodcutter_p01.md", "parent": "stories/02_fairy_and_woodcutter.md", "next_episode": "02_fairy_and_woodcutter_p02", "outro_mode": "teaser",
+      "opener_title": {"ko": "훔친 날개옷", "en": "The Stolen\nRobe"},
+      "opener_kicker": {"ko": "선녀와 나무꾼 · 1부", "en": "THE SKY MAIDEN · PART 1"},
+      "outro_title": {"ko": "돌아간 날개", "en": "Wings\nReturned"},
+      "outro_kicker": {"ko": "2부 예고", "en": "NEXT · PART 2"},
+      "opener_prompt": "An empty smooth rock beside a misty Korean forest pool, a pale jade silk ribbon disappearing behind one dark tree in the lower right. No bathing person and no nudity. One fully clothed sky maiden may appear as a distant ivory silhouette. Leave ample quiet ivory mist in the upper left. Quiet mystery rather than romance, delicate jade accent.",
+      "outro_prompt": "The same dark wooden chest with round brass latch and a tiny chip on its lower-left corner, seen at dawn. A narrow pale jade silk ribbon lies over the lip of the barely opened chest. Open sky reflected in a nearby paper window. Leave the upper left calm for a teaser title. Do not show flight, children in the clouds, or a fully empty chest yet.",
+      "core_transitions": ["cut", "dissolve", "cut", "cut", "cut", "dissolve"]
+    },
+    {
+      "episode_id": "02_fairy_and_woodcutter_p02", "brief": "episodes/02_fairy_and_woodcutter_p02.md", "parent": "stories/02_fairy_and_woodcutter.md", "next_episode": null, "outro_mode": "closing",
+      "opener_title": {"ko": "돌아간 날개", "en": "Wings\nReturned"},
+      "opener_kicker": {"ko": "선녀와 나무꾼 · 2부", "en": "THE SKY MAIDEN · PART 2"},
+      "outro_title": {"ko": "선녀와 나무꾼", "en": "Wings Returned"},
+      "outro_kicker": {"ko": "이야기 끝", "en": "THE END"},
+      "opener_prompt": "A fully clothed Korean sky maiden seen from behind beneath the cottage eave, two children beside her, jade hairpin and pale jade skirt matching the approved references. She faces a high pale sky. The familiar closed chest is in the lower-right foreground. Quiet upper-left space for a large title; no revealed flight or outcome.",
+      "outro_prompt": "The same chest lies open and empty beside a paper window, its round brass latch clearly visible. The woodcutter is a very small still back-view figure at the side. A plain ivory curtain curves toward the open sky. Poetic absence and quiet warm dawn; no returning maiden, new adventure or Part 3 promise.",
+      "core_transitions": ["cut", "cut", "dissolve", "cut", "dissolve", "cut"]
+    },
+    {
+      "episode_id": "03_gumiho_last_night", "brief": "stories/03_gumiho_last_night.md", "parent": null, "next_episode": null, "outro_mode": "closing",
+      "opener_title": {"ko": "구미호의\n마지막 밤", "en": "The Fox Spirit's\nLast Night"},
+      "opener_kicker": {"ko": "한국풍 창작 설화", "en": "AN ORIGINAL KOREAN-INSPIRED TALE"},
+      "outro_title": {"ko": "구미호의 마지막 밤", "en": "The Fox Spirit's\nLast Night"},
+      "outro_kicker": {"ko": "단편 완결", "en": "THE END"},
+      "opener_prompt": "The approved ivory-clad adult fox-spirit woman stands in a snowy Korean pine grove holding one small pale jade pearl at chest height. Her low dark braid and jade ribbon match the reference. Soft reflective light, not neon. Place her toward lower right and leave the upper-left sky calm. No child, no sacrifice outcome or visible anatomical tail transformation.",
+      "outro_prompt": "A small white fox with the same pale jade ribbon at its neck sits on a snowy path, seen from behind as gentle warm dawn touches the trees. Distant small child remains safe by a pine. Spacious sky and restrained ink shadows for the closing title. No invented sequel or new threat.",
+      "core_transitions": ["cut", "dissolve", "cut", "cut", "cut", "dissolve"]
+    },
+    {
+      "episode_id": "04_dokkaebi_club_p01", "brief": "episodes/04_dokkaebi_club_p01.md", "parent": "stories/04_dokkaebi_club.md", "next_episode": "04_dokkaebi_club_p02", "outro_mode": "teaser",
+      "opener_title": {"ko": "개암 한 알", "en": "One\nHazelnut"},
+      "opener_kicker": {"ko": "도깨비방망이 · 1부", "en": "THE DOKKAEBI CLUB · PART 1"},
+      "outro_title": {"ko": "욕심쟁이가\n따라 한 밤", "en": "The Greedy\nNeighbor"},
+      "outro_kicker": {"ko": "2부 예고", "en": "NEXT · PART 2"},
+      "opener_prompt": "A tiny brown hazelnut on ivory cloth beside two others set aside, the kind woodcutter's gray patched cuff visible in the lower-right area. Beyond it, an empty thatched cottage lies among ink trees at dusk. Gentle muted ochre accent and spacious upper-left title area. The nut is ordinary, not an acorn, glowing gem or magic bomb.",
+      "outro_prompt": "The different greedy neighbor in dark-brown hanbok with ochre collar watches a distant lit cottage through an open wooden window. One hazelnut rests in his hand. Keep his narrow face different from the kind woodcutter. Leave quiet dark indigo negative space at upper left. Do not show his failure, violence, coins pouring out or a second magic club.",
+      "core_transitions": ["cut", "dissolve", "cut", "cut", "cut", "dissolve"]
+    },
+    {
+      "episode_id": "04_dokkaebi_club_p02", "brief": "episodes/04_dokkaebi_club_p02.md", "parent": "stories/04_dokkaebi_club.md", "next_episode": null, "outro_mode": "closing",
+      "opener_title": {"ko": "욕심쟁이가\n따라 한 밤", "en": "The Greedy\nNeighbor"},
+      "opener_kicker": {"ko": "도깨비방망이 · 2부", "en": "THE DOKKAEBI CLUB · PART 2"},
+      "outro_title": {"ko": "도깨비방망이", "en": "The\nDokkaebi Club"},
+      "outro_kicker": {"ko": "이야기 끝", "en": "THE END"},
+      "opener_prompt": "The approved greedy neighbor with ochre collar holds a single hazelnut and faces the same abandoned cottage, its forked wooden beam and square window recognizable. Place him lower right, leave the upper-left mist calm. No magic club in the abandoned house, no outcome or injury shown.",
+      "outro_prompt": "A cracked hazelnut shell on a quiet dawn path outside the abandoned cottage, the greedy neighbor small in the background with empty lowered hands. Intact doorway, soft muted ochre dawn and large quiet negative space for a closing title. No wounds, beating, mocking crowd or new sequel premise.",
+      "core_transitions": ["cut", "cut", "dissolve", "cut", "cut", "dissolve"]
+    },
+    {
+      "episode_id": "05_maehwa_spirit", "brief": "stories/05_maehwa_spirit.md", "parent": null, "next_episode": null, "outro_mode": "closing",
+      "opener_title": {"ko": "매화령", "en": "The Plum\nBlossom Promise"},
+      "opener_kicker": {"ko": "돌아오지 못한 봄 · 창작 설화", "en": "AN ORIGINAL KOREAN-INSPIRED TALE"},
+      "outro_title": {"ko": "매화령", "en": "The Plum\nBlossom Promise"},
+      "outro_kicker": {"ko": "단편 완결", "en": "THE END"},
+      "opener_prompt": "A crooked red plum branch reaches above the opaque ivory skirt and still shoes of the approved woman, standing on untouched snow without footprints. Place the small figure low right, soft ivory mist at upper left for title. Only muted cinnabar blossoms add color. No grave, stone memorial, ghost face or spoiler.",
+      "outro_prompt": "The scholar sits alone beneath the same crooked plum tree and small Korean pavilion. One set of footprints crosses the snow, a red petal lies near the nearest footprint. Gentle pale dawn, empty space where the woman stood, same quiet palette. A reflective closing image, no magically regrowing tree or returning woman.",
+      "core_transitions": ["cut", "cut", "dissolve", "cut", "dissolve", "cut"]
+    }
+  ]
+}
