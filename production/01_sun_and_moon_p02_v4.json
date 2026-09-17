@@ -1,0 +1,106 @@
+{
+  "episode_id": "01_sun_and_moon_p02",
+  "version": 4,
+  "timing_status": "TARGET_WINDOWS_NOT_MEASURED_AUDIO",
+  "core_reference": "episodes/01_sun_and_moon_p02.md",
+  "character_reference": "Reuse the exact approved siblings, tiger, tree, cottage, moon, clothing, palette and wind direction from Part 1 continuity. Boy about ten in muted indigo jeogori and ivory trousers. Girl about seven with black braid, muted red ribbon, ivory jeogori and blue-gray chima. Same ochre-gray Korean folk tiger with black brush stripes. Same crooked tree: trunk left, broad branch extending right, moon upper-right. Reuse reference images and part_01_end.json, not descriptive text alone.",
+  "spatial_rule": "Part 2 opens on the same night and same tree. The children are high on the right-extending branch; tiger remains below. The intact rescue rope and the rotten tiger rope are different ropes with different color/texture. Never show the children falling. The final sun and moon are a symbolic resolved image, not a body-morph animation.",
+  "shots": [
+    {
+      "id": "01", "start_frame": 60, "duration_frames": 120,
+      "narration_ko": "나무 아래, 호랑이가 오누이를 노려봤다.",
+      "narration_en": "Below them, the tiger kept watching.",
+      "caption_lines_ko": ["나무 아래, 호랑이가", "오누이를 노려봤다"],
+      "caption_lines_en": ["Below them, the tiger", "kept watching."],
+      "speech_target_seconds": [2.15, 5.25], "target_not_actual": true,
+      "image": "Over-shoulder view from behind the approved siblings on the high right-extending branch, looking down toward the same tiger below. Indigo sleeve and muted red braid ribbon frame the foreground. Moon upper-right, trunk left, no rope visible yet. Keep large simple value shapes and clear subtitle area.",
+      "flow": "Establish the height for about half a second. The tiger slowly lifts its head a little through the middle of the shot while the children's shoulders tighten subtly. Ribbon moves in the same gentle wind. No jump, roar, camera rush or speaking mouths.",
+      "edit": "Start with a clean cut from the separate opener. No recap montage. Keep the full two-line caption together, no word-by-word reveal.",
+      "sound": "Low night wind, very soft branch creak. No tiger roar. Keep narrator clearly in front."
+    },
+    {
+      "id": "02", "start_frame": 180, "duration_frames": 120,
+      "narration_ko": "굵은 가지마저 서서히 흔들렸다.",
+      "narration_en": "Even the heavy branch began to shake.",
+      "caption_lines_ko": ["굵은 가지마저", "서서히 흔들렸다"],
+      "caption_lines_en": ["Even the heavy branch", "began to shake."],
+      "speech_target_seconds": [6.20, 9.15], "target_not_actual": true,
+      "image": "Close side view of the children's planted hands and feet on the same broad branch. Keep branch thick and believable, not already breaking. Trunk left, distant ground soft, approved clothing visible, no tiger face close-up.",
+      "flow": "Hold stable at first, then let the branch tremble gently once over about two seconds. The children brace without changing grips. Settle near the end. No branch snapping, dangling child, frantic shaking or camera vibration.",
+      "edit": "Direct cut. Let motion sell danger; do not add screen shake, flash, polygon wipe or speed ramp.",
+      "sound": "One restrained wood groan matching the actual tremble; low wind continues."
+    },
+    {
+      "id": "03", "start_frame": 300, "duration_frames": 120,
+      "narration_ko": "두 아이는 말없이 하늘에 도움을 빌었다.",
+      "narration_en": "The children silently begged the heavens for help.",
+      "caption_lines_ko": ["두 아이는 말없이", "하늘에 도움을 빌었다"],
+      "caption_lines_en": ["The children silently begged", "the heavens for help."],
+      "speech_target_seconds": [10.15, 13.40], "target_not_actual": true,
+      "image": "Profile close view of the approved girl on the branch, hands already clasped, lips closed. Boy's indigo shoulder beside her. She looks toward open ivory sky, moonlight soft, ribbon readable. No divine figure, no rope yet, no written prayer.",
+      "flow": "The girl slowly raises her gaze and chin over the middle two seconds while hands remain fixed and mouth closed. One cloud drifts gently. Ribbon lifts and settles. No lip sync, spoken prayer, tears performance or new object.",
+      "edit": "Eight-frame soft dissolve may be used from the branch detail because this is a contemplative beat. Blend only the two pictures; no beige veil or full-screen ink block.",
+      "sound": "Lower the music slightly under narration. Thin wind, no child voice or choir."
+    },
+    {
+      "id": "04", "start_frame": 420, "duration_frames": 120,
+      "narration_ko": "그때, 구름 사이로 동아줄이 내려왔다.",
+      "narration_en": "Then a rope descended through the clouds.",
+      "caption_lines_ko": ["그때, 구름 사이로", "동아줄이 내려왔다"],
+      "caption_lines_en": ["Then a rope descended", "through the clouds."],
+      "speech_target_seconds": [14.20, 17.45], "target_not_actual": true,
+      "image": "One pale intact braided rope is already partially visible descending from parted moonlit clouds above the same branch. Siblings small below, vast quiet sky, rope near center-right. No angel, no multiple ropes, no child already floating.",
+      "flow": "After a brief establish, the lower rope end descends a short natural distance during the middle two seconds and sways lightly, then settles. Preserve braid and continuity. No instant teleport, hand grabbing or rope materializing from a flash.",
+      "edit": "Use a clean motivated cut from the upward gaze. Do not add glow burst, white flash or vertical wipe. Let the rope movement be the reveal.",
+      "sound": "A faint airy tonal lift and cloth-rope rustle, narrator remains dominant."
+    },
+    {
+      "id": "05", "start_frame": 540, "duration_frames": 120,
+      "narration_ko": "동아줄은 오누이를 천천히 끌어 올렸다.",
+      "narration_en": "The rope slowly lifted the children to safety.",
+      "caption_lines_ko": ["동아줄은 오누이를", "천천히 끌어 올렸다"],
+      "caption_lines_en": ["The rope slowly lifted", "the children to safety."],
+      "speech_target_seconds": [18.25, 21.55], "target_not_actual": true,
+      "image": "Both approved siblings already hold the intact pale rope as small back-view silhouettes just above the branch. Keep fixed spacing, clothing colors and stable grips; avoid detailed intertwined fingers. Clouds behind, branch below, no tiger in foreground.",
+      "flow": "Establish their grip briefly, then lift both silhouettes together a short distance over roughly two seconds. Fabric trails downward, spacing remains fixed, no spinning or body morph. Settle into the clouds near the end without leaving the entire scene.",
+      "edit": "Direct cut. No artificial slow motion if the generated lift is already gentle. If motion is a fast burst followed by freeze, mark clip unsuitable rather than globally retiming the entire film.",
+      "sound": "Soft wind opens slightly; one low string swell, no angelic choir."
+    },
+    {
+      "id": "06", "start_frame": 660, "duration_frames": 120,
+      "narration_ko": "하지만 호랑이가 잡은 줄은 썩어 있었다.",
+      "narration_en": "But the tiger's rope was rotten.",
+      "caption_lines_ko": ["하지만 호랑이가 잡은 줄은", "썩어 있었다"],
+      "caption_lines_en": ["But the tiger's rope", "was rotten."],
+      "speech_target_seconds": [22.20, 25.10], "target_not_actual": true,
+      "image": "Macro of a different dark frayed rope at center against ivory cloud, rotten fibers nearly separated. One recognizable tiger paw grips the lower end at bottom edge; animal body mostly out of frame. Make this rope clearly darker and rougher than the rescue rope. No blood or falling children.",
+      "flow": "Hold the frayed fibers readable at first. Over the middle two seconds they stretch and separate once; the lower end and partial paw slip downward out of frame. Upper end sways gently. No violent fall, impact, scream or extra ropes.",
+      "edit": "Use a direct shape-motivated cut from the intact rope to the rotten rope. No black blob, impact flash or dramatic camera shake. Align the actual snap sound to the visual separation.",
+      "sound": "One short fiber snap at the true break frame, then thin wind. No falling-body impact or roar."
+    },
+    {
+      "id": "07", "start_frame": 780, "duration_frames": 120,
+      "narration_ko": "살아남은 오누이는 해와 달이 되었다.",
+      "narration_en": "The children became the sun and the moon.",
+      "caption_lines_ko": ["살아남은 오누이는", "해와 달이 되었다"],
+      "caption_lines_en": ["The children became", "the sun and the moon."],
+      "speech_target_seconds": [26.15, 29.20], "target_not_actual": true,
+      "image": "Wide Korean ink landscape under spacious ivory sky. Two already-formed celestial discs: muted ochre sun upper-left and pale silver-blue moon upper-right, clearly separate. Tiny same cottage low below, restrained mist. No child bodies morphing into discs, no faces inside them.",
+      "flow": "One thin cloud band drifts gently between the two stationary discs while distant mist moves over ridges. Minimal slow pullback only. Keep both discs fixed, no sunrise speed ramp, flashing or human transformation.",
+      "edit": "Use an eight-frame soft dissolve from the empty cloud space after the rope break. Finish narration by roughly 29.2 seconds, leaving a quiet held image before the separate three-second ending card. No Part 3 tease.",
+      "sound": "Resolve the low tension into one warm sustained note and quiet wind. Leave space after the last word."
+    }
+  ],
+  "opener": {
+    "from": 0, "frames": 60, "title_enter": [3, 9], "title_hold_through": 51, "title_exit": [51, 59], "narration": false,
+    "title_ko": "하늘에서 내려온\n동아줄", "kicker_ko": "해와 달이 된 오누이 · 2부",
+    "title_en": "The Rope\nfrom the Sky", "kicker_en": "THE SUN AND THE MOON · PART 2",
+    "image_rule": "Same tree and siblings from Part 1, shown high on the branch looking toward moonlit clouds. Do not reveal the final sun/moon or rotten rope in the opener."
+  },
+  "outro": {
+    "from": 900, "frames": 90, "mode": "closing", "title_enter": [904, 912], "title_hold_through": 981, "title_exit": [981, 989], "narration": false,
+    "title_ko": "해와 달이 된\n오누이", "kicker_ko": "이야기 끝",
+    "title_en": "The Sun\nand the Moon", "kicker_en": "THE END",
+    "image_rule": "Calm completed-story image with the same two celestial discs over the Korean ink landscape. No Part 3, new threat or CTA narration."
+  }
+}
